@@ -13,15 +13,12 @@ publishedAt: '2023-12-28T18:49:02.348Z'
 ## Hey, I'm Andre! 👋
 
 🤖 Product Developer & Designer\
-🇧🇷 From Maceió, Brazil\
-🌟 Completed web projects for over [50 clients](https://www.upwork.com/freelancers/andrevitorio)
+🇳🇿 From Matamata, New Zealand\
+🌟 Completed Projects for Several Clients
 
 ### Some personal projects I built 👨🏻‍💻
 
-✍️ CMS for Static Websites - [Outstatic](https://outstatic.com)\
-🎨 Unlimited Design - [Pacy](https://pacy.co/)\
-🚶🏻‍♀️ Taking you for a walk - [Outside Simulator](https://outsidesimulator.com/)\
-🌐 Helping you find the perfect domain - [Namelazy](https://namelazy.com)
+[What Is Truth?](https://whatistruth.co.nz)—a website comparing worldviews by addressing the toughest challenges to them and providing challenging quizzes.
 
 ### Tech I use 🎛️
 
@@ -31,5 +28,5 @@ React, Next.js, TailwindCSS, WebGL, ThreeJS, PHP, MySQL, WordPress, OpenAI APIs,
 
 ### How to reach me 📫
 
-🐧 [X](https://twitter.com/andrevitorio)\
+\
 💼 [LinkedIn](https://www.linkedin.com/in/andrevitorio)
