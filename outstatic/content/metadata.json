@@ -1,6 +1,6 @@
 {
-  "commit": "3a240f56372b35e8ea0af3a40d8afe2a139ff387",
-  "generated": "2024-06-03T04:26:44.328Z",
+  "commit": "f0840e1f9ec8475880cbadb575d12286c2fcd664",
+  "generated": "2024-06-03T04:56:14.051Z",
   "metadata": [
     {
       "__outstatic": {
@@ -164,8 +164,8 @@
     },
     {
       "__outstatic": {
-        "commit": "3a240f56372b35e8ea0af3a40d8afe2a139ff387",
-        "hash": "118989658",
+        "commit": "f0840e1f9ec8475880cbadb575d12286c2fcd664",
+        "hash": "60556067",
         "path": "outstatic/content/projects/what-is-truth.md"
       },
       "author": {

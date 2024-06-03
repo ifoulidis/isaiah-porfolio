@@ -60,5 +60,3 @@ Although I had been told to use *em* for relative units, I ran into issues. Text
 - Interactive components cannot be wrapped within each other, so I made the Read More button inside a clickable card actually just a div. (Motion components are allowed to be nested, just not, say, an &lt;a&gt; inside an &lt;a&gt;).
 - Animations frequently cause issues with page size due to overflow, making only part of the page wider, for instance. As long as the parent element hides the overflow, the problem is solved!
 - I ran checks to see if a user had visited previously or had a colour scheme preference in their browser, but because I had to supply a default value, I was accidentally overriding these checks by setting the state to the default value. The solution was using useRef to check if the initial render had taken place before changing the state.
-
-
