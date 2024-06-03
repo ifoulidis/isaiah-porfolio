@@ -1,6 +1,6 @@
 {
-  "commit": "0edb8070f07674146c82f6649d748ba38d0d3b11",
-  "generated": "2024-06-03T03:42:47.915Z",
+  "commit": "3a240f56372b35e8ea0af3a40d8afe2a139ff387",
+  "generated": "2024-06-03T04:26:44.328Z",
   "metadata": [
     {
       "__outstatic": {
@@ -161,6 +161,24 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "3a240f56372b35e8ea0af3a40d8afe2a139ff387",
+        "hash": "118989658",
+        "path": "outstatic/content/projects/what-is-truth.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/main-advertising-card-g0NT.jpg",
+      "description": "",
+      "publishedAt": "2024-06-03T04:54:50.147Z",
+      "slug": "what-is-truth",
+      "status": "draft",
+      "title": "What Is Truth"
     }
   ]
 }
