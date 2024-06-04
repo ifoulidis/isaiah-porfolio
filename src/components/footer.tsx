@@ -19,7 +19,7 @@ const Footer = () => {
               .
             </p>
             <p className="hidden md:block text-sm mt-4">
-              © Andre Vitorio {new Date().getFullYear()}
+              © Isaiah Foulidis {new Date().getFullYear()}
             </p>
           </div>
           <div className="flex items-center mt-4 md:mt-0">
