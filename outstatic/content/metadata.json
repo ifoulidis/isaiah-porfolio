@@ -1,6 +1,6 @@
 {
-  "commit": "a78cc55ca99c187d5edb88c1eec2acd3f092390b",
-  "generated": "2024-06-04T17:54:35.588Z",
+  "commit": "d4d5b4bfee3bd2f36b07b20eff4ebc00620a97c0",
+  "generated": "2024-06-04T17:54:51.929Z",
   "metadata": [
     {
       "__outstatic": {
@@ -110,24 +110,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ddde9a909a7a9faf405433cf9014dc105bda54e5",
-        "hash": "4139914151",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Isaiah",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
         "commit": "a78cc55ca99c187d5edb88c1eec2acd3f092390b",
         "hash": "3942983360",
         "path": "outstatic/content/pages/about.md"
@@ -143,6 +125,24 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "d4d5b4bfee3bd2f36b07b20eff4ebc00620a97c0",
+        "hash": "2491918814",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Isaiah",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2024-06-05T06:35:07.000Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
