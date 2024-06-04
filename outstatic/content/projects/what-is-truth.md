@@ -1,11 +1,11 @@
 ---
 title: 'What Is Truth'
-status: 'draft'
+status: 'published'
 author:
   name: 'Isaiah Foulidis'
   picture: 'https://avatars.githubusercontent.com/u/44555774?v=4'
 slug: 'what-is-truth'
-description: ''
+description: 'What is truth has quizzes, stylish articles, and more...'
 coverImage: '/images/main-advertising-card-g0NT.jpg'
 publishedAt: '2024-06-03T04:54:50.147Z'
 ---
