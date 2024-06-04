@@ -1,7 +1,25 @@
 {
-  "commit": "d4d5b4bfee3bd2f36b07b20eff4ebc00620a97c0",
-  "generated": "2024-06-04T17:54:51.929Z",
+  "commit": "d63c0fc37e5cb1056e977977e022c3e3b3c7499a",
+  "generated": "Tue, 04 Jun 2024 17:54:56 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "9c652e515524c59cfe478ebadf49bf24115948c3",
+        "hash": "678711510",
+        "path": "outstatic/content/pages/about.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "I'm Andre, a product developer and designer from Maceió, Brazil",
+      "publishedAt": "2023-12-28T18:49:02.348Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About Me"
+    },
     {
       "__outstatic": {
         "commit": "0548c1e465fc2db380332b4f062780a491bb87d6",
@@ -110,26 +128,8 @@
     },
     {
       "__outstatic": {
-        "commit": "a78cc55ca99c187d5edb88c1eec2acd3f092390b",
-        "hash": "3942983360",
-        "path": "outstatic/content/pages/about.md"
-      },
-      "author": {
-        "name": "Isaiah",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "I'm Andre, a product developer and designer from Maceió, Brazil",
-      "publishedAt": "2024-06-04T19:49:02.000Z",
-      "slug": "about",
-      "status": "published",
-      "title": "About Me"
-    },
-    {
-      "__outstatic": {
-        "commit": "d4d5b4bfee3bd2f36b07b20eff4ebc00620a97c0",
-        "hash": "2491918814",
+        "commit": "88c2436af648bb33ec4bece809b986ae89e0342b",
+        "hash": "4139914151",
         "path": "outstatic/content/pages/home.md"
       },
       "author": {
@@ -139,7 +139,7 @@
       "collection": "pages",
       "coverImage": "",
       "description": "This is my blog.",
-      "publishedAt": "2024-06-05T06:35:07.000Z",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
       "slug": "home",
       "status": "published",
       "title": "Home"
