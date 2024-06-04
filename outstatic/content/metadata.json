@@ -1,6 +1,6 @@
 {
-  "commit": "f0840e1f9ec8475880cbadb575d12286c2fcd664",
-  "generated": "2024-06-03T04:56:14.051Z",
+  "commit": "07e85f95b2ac7c711facd4b8bccc9cba457a33e0",
+  "generated": "2024-06-04T17:51:02.931Z",
   "metadata": [
     {
       "__outstatic": {
@@ -146,24 +146,6 @@
     },
     {
       "__outstatic": {
-        "commit": "d164819e9dad435410707d379bdda074f40eda64",
-        "hash": "1875765607",
-        "path": "outstatic/content/pages/about.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "I'm Andre, a product developer and designer from Maceió, Brazil",
-      "publishedAt": "2023-12-28T18:49:02.348Z",
-      "slug": "about",
-      "status": "published",
-      "title": "About Me"
-    },
-    {
-      "__outstatic": {
         "commit": "f0840e1f9ec8475880cbadb575d12286c2fcd664",
         "hash": "60556067",
         "path": "outstatic/content/projects/what-is-truth.md"
@@ -179,6 +161,24 @@
       "slug": "what-is-truth",
       "status": "draft",
       "title": "What Is Truth"
+    },
+    {
+      "__outstatic": {
+        "commit": "07e85f95b2ac7c711facd4b8bccc9cba457a33e0",
+        "hash": "678711510",
+        "path": "outstatic/content/pages/about.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "I'm Andre, a product developer and designer from Maceió, Brazil",
+      "publishedAt": "2023-12-28T18:49:02.348Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About Me"
     }
   ]
 }
