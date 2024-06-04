@@ -1,6 +1,6 @@
 {
-  "commit": "d63c0fc37e5cb1056e977977e022c3e3b3c7499a",
-  "generated": "Tue, 04 Jun 2024 17:53:20 GMT",
+  "commit": "ddde9a909a7a9faf405433cf9014dc105bda54e5",
+  "generated": "2024-06-04T17:53:54.686Z",
   "metadata": [
     {
       "__outstatic": {
@@ -19,24 +19,6 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
-    },
-    {
-      "__outstatic": {
-        "commit": "88c2436af648bb33ec4bece809b986ae89e0342b",
-        "hash": "2477969654",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
     },
     {
       "__outstatic": {
@@ -143,6 +125,24 @@
         }
       ],
       "title": "Add a free CMS to your Next.js website with Outstatic"
+    },
+    {
+      "__outstatic": {
+        "commit": "ddde9a909a7a9faf405433cf9014dc105bda54e5",
+        "hash": "4139914151",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Isaiah",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
