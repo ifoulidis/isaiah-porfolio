@@ -1,6 +1,6 @@
 {
-  "commit": "45f44a33af120a74b5f7143144a73d21c1b1c321",
-  "generated": "Tue, 04 Jun 2024 22:22:48 GMT",
+  "commit": "c6ceaf0cd1ffe39bc764e375a7498d0b7f6a8281",
+  "generated": "2024-06-05T21:17:14.779Z",
   "metadata": [
     {
       "__outstatic": {
@@ -143,6 +143,24 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "c6ceaf0cd1ffe39bc764e375a7498d0b7f6a8281",
+        "hash": "875082992",
+        "path": "outstatic/content/projects/pipeline-google-sheets-to-postgresql.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/img_1169-M1Mj.jpeg",
+      "description": "A data pipeline built with Python, using the Singer.io framework, to get data from Google Sheets to a PostgreSQL database.",
+      "publishedAt": "2024-06-05T22:25:15.727Z",
+      "slug": "pipeline-google-sheets-to-postgresql",
+      "status": "draft",
+      "title": "Pipeline Google Sheets to PostgreSQL"
     }
   ]
 }
