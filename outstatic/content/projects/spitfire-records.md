@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/44555774?v=4'
 slug: 'spitfire-records'
 description: 'Spitfire records is a full-stack e-commerce website built with PHP, JQuery, and MySQL.'
-coverImage: ''
+coverImage: '/images/img_1172-k1Mj.jpeg'
 publishedAt: '2024-06-06T07:39:03.611Z'
 ---
 

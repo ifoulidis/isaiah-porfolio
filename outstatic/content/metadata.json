@@ -1,6 +1,6 @@
 {
-  "commit": "e494cddd3e16de107a8b0f3945d4bc0e83e52a4a",
-  "generated": "2024-06-06T06:45:45.808Z",
+  "commit": "5689632455ef1fd79bef5f840ba486d8bf1028a6",
+  "generated": "2024-06-06T06:48:39.560Z",
   "metadata": [
     {
       "__outstatic": {
@@ -164,8 +164,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e494cddd3e16de107a8b0f3945d4bc0e83e52a4a",
-        "hash": "2715804153",
+        "commit": "5689632455ef1fd79bef5f840ba486d8bf1028a6",
+        "hash": "2072029172",
         "path": "outstatic/content/projects/spitfire-records.md"
       },
       "author": {
@@ -173,7 +173,7 @@
         "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
       },
       "collection": "projects",
-      "coverImage": "",
+      "coverImage": "/images/img_1172-k1Mj.jpeg",
       "description": "Spitfire records is a full-stack e-commerce website built with PHP, JQuery, and MySQL.",
       "publishedAt": "2024-06-06T07:39:03.611Z",
       "slug": "spitfire-records",
