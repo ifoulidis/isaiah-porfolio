@@ -1,6 +1,6 @@
 {
-  "commit": "60cbbc68a3b2c789224ada1a9a6c66a8180cbff4",
-  "generated": "2024-06-06T06:41:28.855Z",
+  "commit": "1a2ab4224176cc6b5852dc47ebb1ffca8a62fc37",
+  "generated": "2024-06-06T06:41:49.328Z",
   "metadata": [
     {
       "__outstatic": {
@@ -96,24 +96,6 @@
     },
     {
       "__outstatic": {
-        "commit": "193493193fd22e4d3d2057c0081fb8192efba006",
-        "hash": "875082992",
-        "path": "outstatic/content/projects/pipeline-google-sheets-to-postgresql.md"
-      },
-      "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/img_1169-M1Mj.jpeg",
-      "description": "A data pipeline built with Python, using the Singer.io framework, to get data from Google Sheets to a PostgreSQL database.",
-      "publishedAt": "2024-06-05T22:25:15.727Z",
-      "slug": "pipeline-google-sheets-to-postgresql",
-      "status": "draft",
-      "title": "Pipeline Google Sheets to PostgreSQL"
-    },
-    {
-      "__outstatic": {
         "commit": "57f309d48fe4b41c247f222598a0db8121a02222",
         "hash": "367287130",
         "path": "outstatic/content/projects/what-is-truth.md"
@@ -179,6 +161,24 @@
       "slug": "spitfire-records",
       "status": "draft",
       "title": "Spitfire Records"
+    },
+    {
+      "__outstatic": {
+        "commit": "1a2ab4224176cc6b5852dc47ebb1ffca8a62fc37",
+        "hash": "875082992",
+        "path": "outstatic/content/projects/pipeline-google-sheets-to-postgresql.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/img_1169-M1Mj.jpeg",
+      "description": "A data pipeline built with Python, using the Singer.io framework, to get data from Google Sheets to a PostgreSQL database.",
+      "publishedAt": "2024-06-05T22:25:15.727Z",
+      "slug": "pipeline-google-sheets-to-postgresql",
+      "status": "draft",
+      "title": "Pipeline Google Sheets to PostgreSQL"
     }
   ]
 }
