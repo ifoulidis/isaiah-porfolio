@@ -1,6 +1,6 @@
 {
-  "commit": "c6ceaf0cd1ffe39bc764e375a7498d0b7f6a8281",
-  "generated": "2024-06-05T21:17:14.779Z",
+  "commit": "1c39a4687a89501be177129e816f2a6602758c39",
+  "generated": "2024-06-06T06:35:58.935Z",
   "metadata": [
     {
       "__outstatic": {
@@ -161,6 +161,24 @@
       "slug": "pipeline-google-sheets-to-postgresql",
       "status": "draft",
       "title": "Pipeline Google Sheets to PostgreSQL"
+    },
+    {
+      "__outstatic": {
+        "commit": "1c39a4687a89501be177129e816f2a6602758c39",
+        "hash": "2715804153",
+        "path": "outstatic/content/projects/spitfire-records.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "",
+      "description": "Spitfire records is a full-stack e-commerce website built with PHP, JQuery, and MySQL.",
+      "publishedAt": "2024-06-06T07:39:03.611Z",
+      "slug": "spitfire-records",
+      "status": "draft",
+      "title": "Spitfire Records"
     }
   ]
 }
