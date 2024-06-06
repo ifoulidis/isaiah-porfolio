@@ -1,6 +1,6 @@
 ---
 title: 'Pipeline Google Sheets to PostgreSQL'
-status: 'draft'
+status: 'published'
 author:
   name: 'Isaiah Foulidis'
   picture: 'https://avatars.githubusercontent.com/u/44555774?v=4'
