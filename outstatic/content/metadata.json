@@ -1,6 +1,6 @@
 {
-  "commit": "e4d1f2d4b864f62cd924ccea84eca7af81af64e0",
-  "generated": "Thu, 06 Jun 2024 06:37:04 GMT",
+  "commit": "60cbbc68a3b2c789224ada1a9a6c66a8180cbff4",
+  "generated": "2024-06-06T06:41:28.855Z",
   "metadata": [
     {
       "__outstatic": {
@@ -164,7 +164,7 @@
     },
     {
       "__outstatic": {
-        "commit": "3b464fbaabd61ad310db30aa29f14a996c38d691",
+        "commit": "60cbbc68a3b2c789224ada1a9a6c66a8180cbff4",
         "hash": "2715804153",
         "path": "outstatic/content/projects/spitfire-records.md"
       },
