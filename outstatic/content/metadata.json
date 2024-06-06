@@ -1,7 +1,53 @@
 {
-  "commit": "8d8c0aebea3447c49e325c52fd007c355a5df7c7",
-  "generated": "2024-06-06T06:36:12.680Z",
+  "commit": "e4d1f2d4b864f62cd924ccea84eca7af81af64e0",
+  "generated": "Thu, 06 Jun 2024 06:37:04 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "cf4540f0dbc5ba8227e7cfa0e7d9819e2148e66f",
+        "hash": "2491918814",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Isaiah",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2024-06-05T06:35:07.000Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "056337c6ec4b1a28f693f8068e1a116eaef5f7e7",
+        "hash": "2721406306",
+        "path": "outstatic/content/posts/add-a-free-cms-to-your-nextjs-website-with-outstatic.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/outstatic-landing-M3MT.png",
+      "description": "Learn how to seamlessly integrate Outstatic into your Next.js website.",
+      "publishedAt": "2024-01-11T20:59:36.724Z",
+      "slug": "add-a-free-cms-to-your-nextjs-website-with-outstatic",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        },
+        {
+          "label": "NextJs",
+          "value": "nextJs"
+        }
+      ],
+      "title": "Add a free CMS to your Next.js website with Outstatic"
+    },
     {
       "__outstatic": {
         "commit": "0c5ef6fe7e2ddd1607e262a3188880007d63c666",
@@ -50,6 +96,42 @@
     },
     {
       "__outstatic": {
+        "commit": "193493193fd22e4d3d2057c0081fb8192efba006",
+        "hash": "875082992",
+        "path": "outstatic/content/projects/pipeline-google-sheets-to-postgresql.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/img_1169-M1Mj.jpeg",
+      "description": "A data pipeline built with Python, using the Singer.io framework, to get data from Google Sheets to a PostgreSQL database.",
+      "publishedAt": "2024-06-05T22:25:15.727Z",
+      "slug": "pipeline-google-sheets-to-postgresql",
+      "status": "draft",
+      "title": "Pipeline Google Sheets to PostgreSQL"
+    },
+    {
+      "__outstatic": {
+        "commit": "57f309d48fe4b41c247f222598a0db8121a02222",
+        "hash": "367287130",
+        "path": "outstatic/content/projects/what-is-truth.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/main-advertising-card-g0NT.jpg",
+      "description": "What is truth has quizzes, stylish articles, and more...",
+      "publishedAt": "2024-06-03T04:54:50.147Z",
+      "slug": "what-is-truth",
+      "status": "published",
+      "title": "What Is Truth"
+    },
+    {
+      "__outstatic": {
         "commit": "556f38c12082dda8bded724747fe6ccfe6a13051",
         "hash": "1352934563",
         "path": "outstatic/content/posts/the-next-steps-for-outstatic.md"
@@ -82,89 +164,7 @@
     },
     {
       "__outstatic": {
-        "commit": "056337c6ec4b1a28f693f8068e1a116eaef5f7e7",
-        "hash": "2721406306",
-        "path": "outstatic/content/posts/add-a-free-cms-to-your-nextjs-website-with-outstatic.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/outstatic-landing-M3MT.png",
-      "description": "Learn how to seamlessly integrate Outstatic into your Next.js website.",
-      "publishedAt": "2024-01-11T20:59:36.724Z",
-      "slug": "add-a-free-cms-to-your-nextjs-website-with-outstatic",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        },
-        {
-          "label": "NextJs",
-          "value": "nextJs"
-        }
-      ],
-      "title": "Add a free CMS to your Next.js website with Outstatic"
-    },
-    {
-      "__outstatic": {
-        "commit": "57f309d48fe4b41c247f222598a0db8121a02222",
-        "hash": "367287130",
-        "path": "outstatic/content/projects/what-is-truth.md"
-      },
-      "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/main-advertising-card-g0NT.jpg",
-      "description": "What is truth has quizzes, stylish articles, and more...",
-      "publishedAt": "2024-06-03T04:54:50.147Z",
-      "slug": "what-is-truth",
-      "status": "published",
-      "title": "What Is Truth"
-    },
-    {
-      "__outstatic": {
-        "commit": "cf4540f0dbc5ba8227e7cfa0e7d9819e2148e66f",
-        "hash": "2491918814",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Isaiah",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2024-06-05T06:35:07.000Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "c6ceaf0cd1ffe39bc764e375a7498d0b7f6a8281",
-        "hash": "875082992",
-        "path": "outstatic/content/projects/pipeline-google-sheets-to-postgresql.md"
-      },
-      "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/img_1169-M1Mj.jpeg",
-      "description": "A data pipeline built with Python, using the Singer.io framework, to get data from Google Sheets to a PostgreSQL database.",
-      "publishedAt": "2024-06-05T22:25:15.727Z",
-      "slug": "pipeline-google-sheets-to-postgresql",
-      "status": "draft",
-      "title": "Pipeline Google Sheets to PostgreSQL"
-    },
-    {
-      "__outstatic": {
-        "commit": "8d8c0aebea3447c49e325c52fd007c355a5df7c7",
+        "commit": "3b464fbaabd61ad310db30aa29f14a996c38d691",
         "hash": "2715804153",
         "path": "outstatic/content/projects/spitfire-records.md"
       },
