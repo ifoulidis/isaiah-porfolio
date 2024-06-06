@@ -1,25 +1,7 @@
 {
-  "commit": "5d67dd9d25cfc09cce86637edc02badf11ae4a87",
-  "generated": "2024-06-06T06:49:31.393Z",
+  "commit": "f6d07dd0d0db2b3747c2d609c118c41fe3458fda",
+  "generated": "Thu, 06 Jun 2024 06:54:18 GMT",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "cf4540f0dbc5ba8227e7cfa0e7d9819e2148e66f",
-        "hash": "2491918814",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Isaiah",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2024-06-05T06:35:07.000Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
     {
       "__outstatic": {
         "commit": "056337c6ec4b1a28f693f8068e1a116eaef5f7e7",
@@ -50,6 +32,24 @@
     },
     {
       "__outstatic": {
+        "commit": "cf4540f0dbc5ba8227e7cfa0e7d9819e2148e66f",
+        "hash": "2491918814",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Isaiah",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2024-06-05T06:35:07.000Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
+    },
+    {
+      "__outstatic": {
         "commit": "0c5ef6fe7e2ddd1607e262a3188880007d63c666",
         "hash": "3942983360",
         "path": "outstatic/content/pages/about.md"
@@ -68,31 +68,21 @@
     },
     {
       "__outstatic": {
-        "commit": "f0521e738471b1b2b3ad2814dfa2f2e7a35c9201",
-        "hash": "4134932838",
-        "path": "outstatic/content/posts/welcome-to-outstatic.md"
+        "commit": "aa0653e6177ef95da0341886abcb40cfa7dfff57",
+        "hash": "3780070503",
+        "path": "outstatic/content/projects/spitfire-records.md"
       },
       "author": {
-        "name": "Andre Vitorio",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
       },
-      "collection": "posts",
-      "coverImage": "/images/welcome-to-outstatic-g3Mz.png",
-      "description": "Thank you for choosing Outstatic to create your website! We look forward to helping you every step of the way.",
-      "publishedAt": "2024-02-10T01:41:03.484Z",
-      "slug": "welcome-to-outstatic",
+      "collection": "projects",
+      "coverImage": "/images/img_1172-cxMD.jpeg",
+      "description": "Spitfire records is a full-stack e-commerce website built with PHP, JQuery, and MySQL.",
+      "publishedAt": "2024-06-06T07:39:03.611Z",
+      "slug": "spitfire-records",
       "status": "published",
-      "tags": [
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        },
-        {
-          "label": "NextJs",
-          "value": "nextJs"
-        }
-      ],
-      "title": "Welcome to Outstatic!"
+      "title": "Spitfire Records"
     },
     {
       "__outstatic": {
@@ -111,6 +101,24 @@
       "slug": "what-is-truth",
       "status": "published",
       "title": "What Is Truth"
+    },
+    {
+      "__outstatic": {
+        "commit": "8cefa9475e535a155e8e465175c73ac036c47cbc",
+        "hash": "1894692351",
+        "path": "outstatic/content/projects/pipeline-google-sheets-to-postgresql.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/img_1169-M1Mj.jpeg",
+      "description": "A data pipeline built with Python, using the Singer.io framework, to get data from Google Sheets to a PostgreSQL database.",
+      "publishedAt": "2024-06-05T22:25:15.727Z",
+      "slug": "pipeline-google-sheets-to-postgresql",
+      "status": "published",
+      "title": "Pipeline Google Sheets to PostgreSQL"
     },
     {
       "__outstatic": {
@@ -146,39 +154,31 @@
     },
     {
       "__outstatic": {
-        "commit": "5689632455ef1fd79bef5f840ba486d8bf1028a6",
-        "hash": "4224160444",
-        "path": "outstatic/content/projects/spitfire-records.md"
+        "commit": "f0521e738471b1b2b3ad2814dfa2f2e7a35c9201",
+        "hash": "4134932838",
+        "path": "outstatic/content/posts/welcome-to-outstatic.md"
       },
       "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+        "name": "Andre Vitorio",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
       },
-      "collection": "projects",
-      "coverImage": "/images/img_1172-cxMD.jpeg",
-      "description": "Spitfire records is a full-stack e-commerce website built with PHP, JQuery, and MySQL.",
-      "publishedAt": "2024-06-06T07:39:03.611Z",
-      "slug": "spitfire-records",
-      "status": "draft",
-      "title": "Spitfire Records"
-    },
-    {
-      "__outstatic": {
-        "commit": "5d67dd9d25cfc09cce86637edc02badf11ae4a87",
-        "hash": "875082992",
-        "path": "outstatic/content/projects/pipeline-google-sheets-to-postgresql.md"
-      },
-      "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/img_1169-M1Mj.jpeg",
-      "description": "A data pipeline built with Python, using the Singer.io framework, to get data from Google Sheets to a PostgreSQL database.",
-      "publishedAt": "2024-06-05T22:25:15.727Z",
-      "slug": "pipeline-google-sheets-to-postgresql",
-      "status": "draft",
-      "title": "Pipeline Google Sheets to PostgreSQL"
+      "collection": "posts",
+      "coverImage": "/images/welcome-to-outstatic-g3Mz.png",
+      "description": "Thank you for choosing Outstatic to create your website! We look forward to helping you every step of the way.",
+      "publishedAt": "2024-02-10T01:41:03.484Z",
+      "slug": "welcome-to-outstatic",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        },
+        {
+          "label": "NextJs",
+          "value": "nextJs"
+        }
+      ],
+      "title": "Welcome to Outstatic!"
     }
   ]
 }
