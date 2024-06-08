@@ -1,6 +1,6 @@
 {
   "commit": "3ed49d5448ce4411c6458374036cc3d61a57b3d8",
-  "generated": "2024-06-08T22:28:26.591Z",
+  "generated": "2024-06-08T22:28:41.959Z",
   "metadata": [
     {
       "__outstatic": {
@@ -155,15 +155,15 @@
     {
       "__outstatic": {
         "commit": "3ed49d5448ce4411c6458374036cc3d61a57b3d8",
-        "hash": "2472950001",
+        "hash": "2217583460",
         "path": "outstatic/content/posts/content-management-options.md"
       },
       "author": {
-        "name": "",
+        "name": "Isaiah Foulidis",
         "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
       },
       "collection": "posts",
-      "coverImage": "",
+      "coverImage": "/images/img_1178-MzMj.jpeg",
       "description": "Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here.",
       "publishedAt": "2024-06-08T23:23:31.446Z",
       "slug": "content-management-options",

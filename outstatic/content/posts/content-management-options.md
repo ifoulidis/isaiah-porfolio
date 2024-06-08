@@ -2,11 +2,11 @@
 title: 'Content Management Options for Web Developers'
 status: 'draft'
 author:
-  name: ''
+  name: 'Isaiah Foulidis'
   picture: 'https://avatars.githubusercontent.com/u/44555774?v=4'
 slug: 'content-management-options'
 description: 'Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here.'
-coverImage: ''
+coverImage: '/images/img_1178-MzMj.jpeg'
 tags: [{"value":"nextJs","label":"NextJs"},{"value":"outstatic","label":"Outstatic"}]
 publishedAt: '2024-06-08T23:23:31.446Z'
 ---
@@ -23,7 +23,7 @@ If you don’t know where to start with setting up a CMS, really ask yourself if
 
 ## Option 2: A Headless CMS
 
-Getting started with a headless CMS can be just as fast or faster than hard-coding, and it gives you an editor to use, but if the headless CMS has bugs, you might not be able to remedy them. Customising parts of your content can be the most difficult with this option. A blog with a headless CMS can often run on free-tier plans while it doesn’t have many visitors. 
+Getting started with a headless CMS can be just as fast or faster than hard-coding, and it gives you an editor to use, but if the headless CMS has bugs, you might not be able to remedy them. Customising parts of your content can be the most difficult with this option. A blog with a headless CMS can often run on free-tier plans while it doesn’t have many visitors.
 
 ## Option 3: Hard-Coding
 
@@ -41,7 +41,7 @@ Before we go any further, you should know what [markdown syntax](https://www.mar
 
 It is easy to convert markdown to rich text and vice versa, so most markdown editors support using rich text, which lets your users get straight into it with no learning required.
 
-However, what if you want custom components in your documents? Most headless CMSs don’t support tables or accordions out of the box, for example, but with Markdocs and MDX, you can add things like these in a moment. Support for these file types seems rare for headless CMSs, but Keystatic supports both. 
+However, what if you want custom components in your documents? Most headless CMSs don’t support tables or accordions out of the box, for example, but with Markdocs and MDX, you can add things like these in a moment. Support for these file types seems rare for headless CMSs, but Keystatic supports both.
 
 ### Markdocs
 
@@ -51,7 +51,7 @@ However, what if you want custom components in your documents? Most headless CMS
 
 [MDX](https://mdxjs.com/) mixes markdown syntax with JSX.
 
-ContentLayer is a neat way to instantly handle integration of MDX with Next.js (without a UI). You can simply clone the example from [here](https://github.com/contentlayerdev/next-contentlayer-example/tree/88da08590d6a19c9d1678007c0f2a40513d12981) to get started. 
+ContentLayer is a neat way to instantly handle integration of MDX with Next.js (without a UI). You can simply clone the example from [here](https://github.com/contentlayerdev/next-contentlayer-example/tree/88da08590d6a19c9d1678007c0f2a40513d12981) to get started.
 
 ## Hosting
 
@@ -98,7 +98,7 @@ The downsides are that if you want a lot of reusable components, copying them an
 
 [Sanity](https://www.sanity.io/) is a modern way to manage content without handling the back-end yourself. It allows team-member collaboration, provides previews of how your content will appear on the live website, and more. There is a free tier as well.
 
-The studio, where content is managed, is fully customisable, and is quite sleek out of the box. It is a great option, especially if you want every aspect of your website to be editable for a non-technical collaborator. 
+The studio, where content is managed, is fully customisable, and is quite sleek out of the box. It is a great option, especially if you want every aspect of your website to be editable for a non-technical collaborator.
 
 ## Decap CMS
 
@@ -112,8 +112,6 @@ You can write markdown within HTML instead of using those pesky element tags wit
 
 If you’re a beginner, you could create a simple blog with Bootstrap or customise a template you find by searching GitHub, add zero-md, and choose a cheap hosting provider.
 
-## Keystatic 
+## Keystatic
 
 I am about to try out [Keystatic](https://keystatic.com/docs/introduction). It can store data locally in the repo of your front-end code, but cloud storage is also possible. Markdocs and MDX fields are supported, which is very neat.
-
- 
