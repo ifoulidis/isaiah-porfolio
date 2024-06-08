@@ -1,6 +1,6 @@
 {
-  "commit": "3ed49d5448ce4411c6458374036cc3d61a57b3d8",
-  "generated": "2024-06-08T22:28:41.959Z",
+  "commit": "386f4ca6c4f82a36d999ea8f07be23f38a589e06",
+  "generated": "Sat, 08 Jun 2024 22:30:25 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -22,6 +22,34 @@
     },
     {
       "__outstatic": {
+        "commit": "be6d75ca5acaa607b90c1569b270072005446b29",
+        "hash": "1453462788",
+        "path": "outstatic/content/posts/content-management-options.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/img_1178-MzMj.jpeg",
+      "description": "Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here.",
+      "publishedAt": "2024-06-08T23:23:31.446Z",
+      "slug": "content-management-options",
+      "status": "published",
+      "tags": [
+        {
+          "label": "NextJs",
+          "value": "nextJs"
+        },
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        }
+      ],
+      "title": "Content Management Options for Web Developers"
+    },
+    {
+      "__outstatic": {
         "commit": "0c5ef6fe7e2ddd1607e262a3188880007d63c666",
         "hash": "3942983360",
         "path": "outstatic/content/pages/about.md"
@@ -40,21 +68,63 @@
     },
     {
       "__outstatic": {
-        "commit": "aa0653e6177ef95da0341886abcb40cfa7dfff57",
-        "hash": "3780070503",
-        "path": "outstatic/content/projects/spitfire-records.md"
+        "commit": "f0521e738471b1b2b3ad2814dfa2f2e7a35c9201",
+        "hash": "4134932838",
+        "path": "outstatic/content/posts/welcome-to-outstatic.md"
       },
       "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+        "name": "Andre Vitorio",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
       },
-      "collection": "projects",
-      "coverImage": "/images/img_1172-cxMD.jpeg",
-      "description": "Spitfire records is a full-stack e-commerce website built with PHP, JQuery, and MySQL.",
-      "publishedAt": "2024-06-06T07:39:03.611Z",
-      "slug": "spitfire-records",
+      "collection": "posts",
+      "coverImage": "/images/welcome-to-outstatic-g3Mz.png",
+      "description": "Thank you for choosing Outstatic to create your website! We look forward to helping you every step of the way.",
+      "publishedAt": "2024-02-10T01:41:03.484Z",
+      "slug": "welcome-to-outstatic",
       "status": "published",
-      "title": "Spitfire Records"
+      "tags": [
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        },
+        {
+          "label": "NextJs",
+          "value": "nextJs"
+        }
+      ],
+      "title": "Welcome to Outstatic!"
+    },
+    {
+      "__outstatic": {
+        "commit": "556f38c12082dda8bded724747fe6ccfe6a13051",
+        "hash": "1352934563",
+        "path": "outstatic/content/posts/the-next-steps-for-outstatic.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/1500x500-Q3ND.webp",
+      "description": "The plan was simple: start a blog and write about my journey as a developer. But that's exactly the problem, I'm a developer. ",
+      "publishedAt": "2024-01-02T14:41:29.000Z",
+      "slug": "the-next-steps-for-outstatic",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        },
+        {
+          "label": "NextJs",
+          "value": "nextJs"
+        },
+        {
+          "label": "GitHub",
+          "value": "gitHub"
+        }
+      ],
+      "title": "Far Out - The Next Steps for Outstatic "
     },
     {
       "__outstatic": {
@@ -94,91 +164,21 @@
     },
     {
       "__outstatic": {
-        "commit": "556f38c12082dda8bded724747fe6ccfe6a13051",
-        "hash": "1352934563",
-        "path": "outstatic/content/posts/the-next-steps-for-outstatic.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/1500x500-Q3ND.webp",
-      "description": "The plan was simple: start a blog and write about my journey as a developer. But that's exactly the problem, I'm a developer. ",
-      "publishedAt": "2024-01-02T14:41:29.000Z",
-      "slug": "the-next-steps-for-outstatic",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        },
-        {
-          "label": "NextJs",
-          "value": "nextJs"
-        },
-        {
-          "label": "GitHub",
-          "value": "gitHub"
-        }
-      ],
-      "title": "Far Out - The Next Steps for Outstatic "
-    },
-    {
-      "__outstatic": {
-        "commit": "f0521e738471b1b2b3ad2814dfa2f2e7a35c9201",
-        "hash": "4134932838",
-        "path": "outstatic/content/posts/welcome-to-outstatic.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/welcome-to-outstatic-g3Mz.png",
-      "description": "Thank you for choosing Outstatic to create your website! We look forward to helping you every step of the way.",
-      "publishedAt": "2024-02-10T01:41:03.484Z",
-      "slug": "welcome-to-outstatic",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        },
-        {
-          "label": "NextJs",
-          "value": "nextJs"
-        }
-      ],
-      "title": "Welcome to Outstatic!"
-    },
-    {
-      "__outstatic": {
-        "commit": "3ed49d5448ce4411c6458374036cc3d61a57b3d8",
-        "hash": "2217583460",
-        "path": "outstatic/content/posts/content-management-options.md"
+        "commit": "aa0653e6177ef95da0341886abcb40cfa7dfff57",
+        "hash": "3780070503",
+        "path": "outstatic/content/projects/spitfire-records.md"
       },
       "author": {
         "name": "Isaiah Foulidis",
         "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
       },
-      "collection": "posts",
-      "coverImage": "/images/img_1178-MzMj.jpeg",
-      "description": "Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here.",
-      "publishedAt": "2024-06-08T23:23:31.446Z",
-      "slug": "content-management-options",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "NextJs",
-          "value": "nextJs"
-        },
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        }
-      ],
-      "title": "Content Management Options for Web Developers"
+      "collection": "projects",
+      "coverImage": "/images/img_1172-cxMD.jpeg",
+      "description": "Spitfire records is a full-stack e-commerce website built with PHP, JQuery, and MySQL.",
+      "publishedAt": "2024-06-06T07:39:03.611Z",
+      "slug": "spitfire-records",
+      "status": "published",
+      "title": "Spitfire Records"
     }
   ]
 }
