@@ -1,6 +1,6 @@
 {
-  "commit": "386f4ca6c4f82a36d999ea8f07be23f38a589e06",
-  "generated": "Sat, 08 Jun 2024 22:30:25 GMT",
+  "commit": "6420e4b8bdceb67b6e2333aa94fb7a704520b678",
+  "generated": "2024-06-08T22:38:06.388Z",
   "metadata": [
     {
       "__outstatic": {
@@ -19,34 +19,6 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "be6d75ca5acaa607b90c1569b270072005446b29",
-        "hash": "1453462788",
-        "path": "outstatic/content/posts/content-management-options.md"
-      },
-      "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/img_1178-MzMj.jpeg",
-      "description": "Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here.",
-      "publishedAt": "2024-06-08T23:23:31.446Z",
-      "slug": "content-management-options",
-      "status": "published",
-      "tags": [
-        {
-          "label": "NextJs",
-          "value": "nextJs"
-        },
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        }
-      ],
-      "title": "Content Management Options for Web Developers"
     },
     {
       "__outstatic": {
@@ -179,6 +151,34 @@
       "slug": "spitfire-records",
       "status": "published",
       "title": "Spitfire Records"
+    },
+    {
+      "__outstatic": {
+        "commit": "6420e4b8bdceb67b6e2333aa94fb7a704520b678",
+        "hash": "877881281",
+        "path": "outstatic/content/posts/content-management-options.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/img_1180-I2MT.jpeg",
+      "description": "Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here.",
+      "publishedAt": "2024-06-08T23:23:31.446Z",
+      "slug": "content-management-options",
+      "status": "published",
+      "tags": [
+        {
+          "label": "NextJs",
+          "value": "nextJs"
+        },
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        }
+      ],
+      "title": "Content Management Options for Web Developers"
     }
   ]
 }

@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/44555774?v=4'
 slug: 'content-management-options'
 description: 'Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here.'
-coverImage: '/images/img_1178-MzMj.jpeg'
+coverImage: '/images/img_1180-I2MT.jpeg'
 tags: [{"value":"nextJs","label":"NextJs"},{"value":"outstatic","label":"Outstatic"}]
 publishedAt: '2024-06-08T23:23:31.446Z'
 ---
