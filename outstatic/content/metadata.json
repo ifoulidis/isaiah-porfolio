@@ -1,6 +1,6 @@
 {
-  "commit": "c5a76bbce102addd8ef59d5bb592df761ca59fac",
-  "generated": "2024-06-08T22:11:27.376Z",
+  "commit": "3ed49d5448ce4411c6458374036cc3d61a57b3d8",
+  "generated": "2024-06-08T22:27:10.940Z",
   "metadata": [
     {
       "__outstatic": {
@@ -151,6 +151,34 @@
         }
       ],
       "title": "Welcome to Outstatic!"
+    },
+    {
+      "__outstatic": {
+        "commit": "3ed49d5448ce4411c6458374036cc3d61a57b3d8",
+        "hash": "1132953420",
+        "path": "outstatic/content/posts/content-management-options.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/img_1178-MzMj.jpeg",
+      "description": "Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here.",
+      "publishedAt": "2024-06-08T23:23:31.446Z",
+      "slug": "content-management-options",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "NextJs",
+          "value": "nextJs"
+        },
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        }
+      ],
+      "title": "Content Management Options for Web Developers"
     }
   ]
 }
