@@ -35,9 +35,11 @@ Writing directly within the source code gives you complete control over the appe
 
 Before we go any further, you should know what [markdown syntax](https://www.markdownguide.org/basic-syntax/) is, and you should definitely check out what you can do with it and think about whether it is flexible enough for your content. It is basically plain text that uses special characters to denote things like headings and bold text.
 
-\`# This Is a Heading In Markdown
+```
+# This Is a Heading In Markdown
 
-`**This** would appear bold, and _this_ would be in italics.`
+**This** would appear bold, and _this_ would be in italics.
+```
 
 It is easy to convert markdown to rich text and vice versa, so most markdown editors support using rich text, which lets your users get straight into it with no learning required.
 
