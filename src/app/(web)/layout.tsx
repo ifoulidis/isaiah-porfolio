@@ -9,25 +9,25 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL("https://outstatic.com"),
   title: {
-    default: "Andre Vitorio - Design. Develop. Deploy.",
-    template: "%s | Andre Vitorio",
+    default: "Isaiah Foulidis - Web Designer.",
+    template: "%s | Isaiah",
   },
   description:
-    "Design engineer from Maceió, Brazil. I write about web development, software engineering, and more.",
+    "Web designer from New Zealand. I build data pipelines and create websites.",
   openGraph: {
-    title: "Andre Vitorio - Design. Develop. Deploy.",
+    title: "Isaiah Foulidis - Web Designer.",
     description:
-      "Design engineer from Maceió, Brazil. I write about web development, software engineering, and more.",
+      "Web designer from New Zealand. I build data pipelines and create websites.",
     url: absoluteUrl("/"),
-    siteName: "AndreVitorio.com",
-    images: [
-      {
-        url: ogUrl("Andre Vitorio - Design. Develop. Deploy."),
-        width: 1200,
-        height: 630,
-      },
-    ],
-    locale: "en_US",
+    // siteName: "isaiah-portfolio.vercel.app",
+    // images: [
+    //   {
+    //     url: ogUrl("Isaiah Foulidis - Design. Develop. Deploy."),
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+    locale: "en_NZ",
     type: "website",
   },
   icons: {
