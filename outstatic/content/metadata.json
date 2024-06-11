@@ -1,6 +1,6 @@
 {
-  "commit": "62c82a4d30338d1e8b0936785064649a810106a2",
-  "generated": "Mon, 10 Jun 2024 19:37:46 GMT",
+  "commit": "9563cb831b44e7239ca945d3c0ff08fd3603fc33",
+  "generated": "2024-06-11T19:50:14.877Z",
   "metadata": [
     {
       "__outstatic": {
@@ -119,6 +119,26 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "9563cb831b44e7239ca945d3c0ff08fd3603fc33",
+        "hash": "4230237030",
+        "path": "outstatic/content/posts/ufc-data-analysis.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-06-11T20:59:38.378Z",
+      "slug": "ufc-data-analysis",
+      "status": "draft",
+      "tags": [
+      ],
+      "title": "UFC Data Analysis"
     }
   ]
 }
