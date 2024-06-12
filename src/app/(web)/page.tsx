@@ -14,15 +14,6 @@ export default async function Index() {
         />
       </section>
       <div className="animate-fade-in delay-1000 opacity-0 duration-500">
-        {allPosts.length > 0 && (
-          <ContentGrid
-            title="posts"
-            items={allPosts}
-            collection="posts"
-            priority
-            viewAll
-          />
-        )}
         {Object.keys(otherCollections).map((collection) => {
           if (!collection.length) return null;
           return (
@@ -35,6 +26,16 @@ export default async function Index() {
             />
           );
         })}
+
+        {allPosts.length > 0 && (
+          <ContentGrid
+            title="posts"
+            items={allPosts}
+            collection="posts"
+            priority
+            viewAll
+          />
+        )}
       </div>
     </>
   );

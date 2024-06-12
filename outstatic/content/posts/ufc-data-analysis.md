@@ -1,27 +1,32 @@
 ---
-title: 'UFC Data Analysis'
-status: 'published'
+title: "UFC Data Analysis"
+status: "published"
 author:
-  name: 'Isaiah Foulidis'
-  picture: 'https://avatars.githubusercontent.com/u/44555774?v=4'
-slug: 'ufc-data-analysis'
-description: 'A Python-based analysis of thousands of UFC fights, along with reusable functions for finding interesting information.'
-coverImage: '/images/mma-gloves-A5OT.jpg'
-tags: [{"label":"UFC","value":"ufc"},{"label":"Python","value":"python"},{"label":"Pandas","value":"pandas"}]
-publishedAt: '2024-06-11T20:59:38.378Z'
+  name: "Isaiah Foulidis"
+  picture: "https://avatars.githubusercontent.com/u/44555774?v=4"
+slug: "ufc-data-analysis"
+description: "A Python-based analysis of thousands of UFC fights, along with reusable functions for finding interesting information."
+coverImage: "/images/mma-gloves-A5OT.jpg"
+tags:
+  [
+    { "label": "UFC", "value": "ufc" },
+    { "label": "Python", "value": "python" },
+    { "label": "Pandas", "value": "pandas" },
+  ]
+publishedAt: "2024-06-11T20:59:38.378Z"
 ---
 
 ## Summary
 
 Due to a personal interest in mixed martial arts, I thought that analysing data on UFC fights could be fascinating. I found that height is actually a slight disadvantage statistically in MMA bouts, which is not overly surprising to me, but should be considered by commentators, gamblers, and coaches alike.
 
-To see the code, please view this [PDF](http://localhost:3000/UFC_project_code.pdf) of the Jupyter notebook.
+To see the code, please view this [PDF](/UFC_project_code.pdf) of the Jupyter notebook.
 
 The Ultimate Fighting Championship (UFC) is the premier mixed martial arts (MMA) organisation. Athletes typically use techniques kickboxing, wrestling, and Brazilian Jiu Jitsu (among other martial arts) to defeat their opponents. More information about mixed martial arts can be found in the UFC's Introduction to MMA.
 
 The dataset used here was kindly gathered by Rajeev Warrier. [Click here ](https://www.kaggle.com/datasets/rajeevw/ufcdata)to see a description of the dataset.
 
-### **Skills Shown**
+### Skills Shown
 
 - Problem solving with real, slightly messy data.
 - Pursuing results that could have relevance in the real world.
@@ -37,7 +42,7 @@ First, I made a few simple functions to quickly retrieve information from the da
 
 ### Win Rate by Stance
 
-##### The first investigation I performed (after some investigation of the dataset itself) was one comparing how well the various stances that can be used serve fighters. Given that in most weight classes, wrestling, if used, is more important than striking, I didn't expect the stance to have a massive impact; and I had also seen enough fights to know that it does not. That being said, it is well known that orthodox fighters tend to have a disadvantage against southpaws, since southpaws are rarer and thus have more practice against orthodox fighters than orthodox fighters do against southpaws, typically. I note some other factors in the markdown in the code.
+The first investigation I performed (after some investigation of the dataset itself) was one comparing how well the various stances that can be used serve fighters. Given that in most weight classes, wrestling, if used, is more important than striking, I didn't expect the stance to have a massive impact; and I had also seen enough fights to know that it does not. That being said, it is well known that orthodox fighters tend to have a disadvantage against southpaws, since southpaws are rarer and thus have more practice against orthodox fighters than orthodox fighters do against southpaws, typically. I note some other factors in the markdown in the code.
 
 The win rates were as follows:
 
@@ -113,4 +118,4 @@ The outcome appears to be that a longer reach is often negatively correlated wit
 
 ### Other Findings
 
-There are yet more findings to see, so check out the [PDF](http://localhost:3000/UFC_project_code.pdf) if you are interested in this topic.
+There are yet more findings to see, so check out the [PDF](/UFC_project_code.pdf) if you are interested in this topic.

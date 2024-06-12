@@ -1,16 +1,14 @@
 ---
-title: 'Home'
-status: 'published'
+title: "Home"
+status: "published"
 author:
-  name: 'Isaiah'
-  picture: ''
-slug: 'home'
-description: 'This is my blog.'
-coverImage: ''
-publishedAt: '2024-06-05T06:35:07.000Z'
+  name: "Isaiah"
+  picture: ""
+slug: "home"
+description: "This is my blog."
+coverImage: ""
+publishedAt: "2024-06-05T06:35:07.000Z"
 ---
-
-## Hello!
 
 # I'm Isaiah, nice to meet you.
 

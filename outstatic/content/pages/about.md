@@ -14,7 +14,9 @@ publishedAt: "2024-06-04T19:49:02.000Z"
 
 🤖 Web and Software Developer\
 🇳🇿 From Matamata, New Zealand\
-🌟 Completed Over 10 Professional Projects
+🔬 Background in biochemistry\
+📝 Formerly an English & Specialist Editor for science journals\
+✅ Completed Over 10 Professional Projects
 
 ### Some personal projects I built 👨🏻‍💻
 
