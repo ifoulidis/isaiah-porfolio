@@ -1,29 +1,27 @@
 ---
 title: 'UFC Data Analysis'
-status: 'draft'
+status: 'published'
 author:
-  name: ''
+  name: 'Isaiah Foulidis'
   picture: 'https://avatars.githubusercontent.com/u/44555774?v=4'
 slug: 'ufc-data-analysis'
-description: ''
-coverImage: ''
-tags: ''
+description: 'A Python-based analysis of thousands of UFC fights, along with reusable functions for finding interesting information.'
+coverImage: '/images/mma-gloves-A5OT.jpg'
+tags: [{"label":"UFC","value":"ufc"},{"label":"Python","value":"python"},{"label":"Pandas","value":"pandas"}]
 publishedAt: '2024-06-11T20:59:38.378Z'
 ---
 
-## **Summary**
+## Summary
 
 Due to a personal interest in mixed martial arts, I thought that analysing data on UFC fights could be fascinating. I found that height is actually a slight disadvantage statistically in MMA bouts, which is not overly surprising to me, but should be considered by commentators, gamblers, and coaches alike.
 
-To see the code, please see my [GitHub page](https://github.com/ifoulidis?tab=repositories) or view it in a [PDF](http://localhost:3000/UFC_project_code.pdf).
+To see the code, please view this [PDF](http://localhost:3000/UFC_project_code.pdf) of the Jupyter notebook.
 
-\
 The Ultimate Fighting Championship (UFC) is the premier mixed martial arts (MMA) organisation. Athletes typically use techniques kickboxing, wrestling, and Brazilian Jiu Jitsu (among other martial arts) to defeat their opponents. More information about mixed martial arts can be found in the UFC's Introduction to MMA.
 
-\
 The dataset used here was kindly gathered by Rajeev Warrier. [Click here ](https://www.kaggle.com/datasets/rajeevw/ufcdata)to see a description of the dataset.
 
-## **Skills Shown**
+### **Skills Shown**
 
 - Problem solving with real, slightly messy data.
 - Pursuing results that could have relevance in the real world.
@@ -31,14 +29,13 @@ The dataset used here was kindly gathered by Rajeev Warrier. [Click here ](https
 - The ability to use Pandas, numpy, matplotlib, etc.
 - The ability to write efficient and clear Python code.
 
-## **\
-Utility Functions**
+### Utility Functions
 
 First, I made a few simple functions to quickly retrieve information from the dataset. For instance, one function takes fighters' names as input and returns the results of their fights, or that they have not fought (and it catches possible errors). I made a version of this function that would be suitable for use by a user in a web-app. If desired, using a Flask API and simple HTML, this function could return the results of all fights between two selected individuals.
 
-## **Findings**
+## Findings
 
-### **Win Rate by Stance**
+### Win Rate by Stance
 
 ##### The first investigation I performed (after some investigation of the dataset itself) was one comparing how well the various stances that can be used serve fighters. Given that in most weight classes, wrestling, if used, is more important than striking, I didn't expect the stance to have a massive impact; and I had also seen enough fights to know that it does not. That being said, it is well known that orthodox fighters tend to have a disadvantage against southpaws, since southpaws are rarer and thus have more practice against orthodox fighters than orthodox fighters do against southpaws, typically. I note some other factors in the markdown in the code.
 
@@ -55,7 +52,7 @@ These results were not too surprising. The only real question for an MMA enthusi
 
 I also created a function which can compare the effectiveness of fighters of any two stances against each other in general. It returns the win rates of both stances as a tuple. I return both because no contests are not wins for either party, so the win rates do not add up to 1.
 
-### **Reach Advantage**
+### Reach Advantage
 
 The following results show the reach advantage that the winner had over the loser on average, for a given weight class. Note that there are negative values.
 
@@ -74,7 +71,8 @@ WomenFeatherweight: 1.11\
 CatchWeight: -0.07\
 OpenWeight: No relevant data
 
-Although the data are incomplete and have some issues, the results are quite interesting, in that the mean difference is very small. The strength of the correlation and statistical significance are irrelevant, since the differences are so small anyway.\
+Although the data are incomplete and have some issues, the results are quite interesting, in that the mean difference is very small. The strength of the correlation and statistical significance are irrelevant, since the differences are so small anyway.
+
 What I thought would be interesting to do next is find the average difference in reach for opponents of each weight class. The results were as follows:
 
 Bantamweight: 7.09\
@@ -92,7 +90,8 @@ WomenFeatherweight: 6.51\
 CatchWeight: 6.77\
 OpenWeight: No relevant data
 
-The data show that the average reach difference for every weight class is substantial, of which I was already aware.\
+The data show that the average reach difference for every weight class is substantial, of which I was already aware.
+
 I also checked whether any reach advantage at all relates to win rate. The results were as follows:
 
 Bantamweight: 42.76%\
@@ -110,6 +109,8 @@ WomenFeatherweight: 43.75%\
 CatchWeight: 44.44%\
 OpenWeight: No relevant data
 
-### **Other Findings**
+The outcome appears to be that a longer reach is often negatively correlated with victory, and this is likely related to the well-known tendency for the shorter fighter to resort to wrestling, and wrestling is more often a successful strategy than striking.
+
+### Other Findings
 
 There are yet more findings to see, so check out the [PDF](http://localhost:3000/UFC_project_code.pdf) if you are interested in this topic.

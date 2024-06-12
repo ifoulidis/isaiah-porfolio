@@ -20,6 +20,18 @@
         {
           "value": "outstatic",
           "label": "Outstatic"
+        },
+        {
+          "value": "ufc",
+          "label": "UFC"
+        },
+        {
+          "value": "python",
+          "label": "Python"
+        },
+        {
+          "value": "pandas",
+          "label": "Pandas"
         }
       ]
     }

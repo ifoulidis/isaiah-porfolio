@@ -1,6 +1,6 @@
 {
-  "commit": "9563cb831b44e7239ca945d3c0ff08fd3603fc33",
-  "generated": "2024-06-11T19:50:14.877Z",
+  "commit": "5557a21fed94a6ddc6d4bd97697471d8caeb1f7a",
+  "generated": "2024-06-12T04:58:41.828Z",
   "metadata": [
     {
       "__outstatic": {
@@ -122,21 +122,33 @@
     },
     {
       "__outstatic": {
-        "commit": "9563cb831b44e7239ca945d3c0ff08fd3603fc33",
-        "hash": "4230237030",
+        "commit": "5557a21fed94a6ddc6d4bd97697471d8caeb1f7a",
+        "hash": "1596369722",
         "path": "outstatic/content/posts/ufc-data-analysis.md"
       },
       "author": {
-        "name": "",
+        "name": "Isaiah Foulidis",
         "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
       },
       "collection": "posts",
-      "coverImage": "",
-      "description": "",
+      "coverImage": "/images/mma-gloves-A5OT.jpg",
+      "description": "A Python-based analysis of thousands of UFC fights, along with reusable functions for finding interesting information.",
       "publishedAt": "2024-06-11T20:59:38.378Z",
       "slug": "ufc-data-analysis",
-      "status": "draft",
+      "status": "published",
       "tags": [
+        {
+          "label": "UFC",
+          "value": "ufc"
+        },
+        {
+          "label": "Python",
+          "value": "python"
+        },
+        {
+          "label": "Pandas",
+          "value": "pandas"
+        }
       ],
       "title": "UFC Data Analysis"
     }
