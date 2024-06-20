@@ -20,7 +20,7 @@ publishedAt: "2024-06-11T20:59:38.378Z"
 
 Due to a personal interest in mixed martial arts, I thought that analysing data on UFC fights could be fascinating. I found that height is actually a slight disadvantage statistically in MMA bouts, which is not overly surprising to me, but should be considered by commentators, gamblers, and coaches alike.
 
-To see the code, please view this [PDF](/UFC_project_code.pdf) of the Jupyter notebook.
+To see the code, please view this [PDF](public/UFC_project_code.pdf) of the Jupyter notebook.
 
 The Ultimate Fighting Championship (UFC) is the premier mixed martial arts (MMA) organisation. Athletes typically use techniques kickboxing, wrestling, and Brazilian Jiu Jitsu (among other martial arts) to defeat their opponents. More information about mixed martial arts can be found in the UFC's Introduction to MMA.
 
