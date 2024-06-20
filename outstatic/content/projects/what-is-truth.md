@@ -10,6 +10,9 @@ coverImage: '/images/main-advertising-card-g0NT.jpg'
 publishedAt: '2024-06-03T04:54:50.147Z'
 ---
 
+
+[https://www.whatistruth.co.nz](https://www.whatistruth.co.nz/)
+
 # The Short Story
 
 What is Truth is a website designed to provide the sort of knowledge I wish I had access to quickly and efficiently. It's a long process learning about the different beliefs in the world, and a lot of people are highly dishonest when explaining them, wanting to sugar-coat everything. Who wants to trawl through article after article and struggle to find sources or even direct, unapologetic answers? Moreover, the quizzes I build hit users with information that lots of people simply don't come across because it is against the narrative (though not wild and speculative either).
@@ -51,7 +54,7 @@ With Next.js updates I could no longer include &lt;a&gt; inside &lt;Link&gt; ele
 
 Framer Motion does not have the clearest docs in my opinion, and it seems to be fairly buggy. I had to go to GitHub issues and forums for some answers, and other things I just learned through experience or had to work around.
 
-One thing I learned in particular is that the children must NOT have initial and animate props!
+One thing I learned in particular is that the children of animating elements must NOT have initial and animate props!
 
 ## Styling
 
