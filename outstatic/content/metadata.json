@@ -1,11 +1,29 @@
 {
-  "commit": "46ae6a5d33f2538beaf2bae6bf2210b0808a8884",
-  "generated": "2024-06-20T10:23:06.732Z",
+  "commit": "79b4e03f25bb038b3addcd7329462f1ad75f854c",
+  "generated": "Thu, 20 Jun 2024 10:23:28 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "a83d8cb2e7fe2fb9de72b388c1453234cba60f36",
-        "hash": "64766948",
+        "commit": "b3cb07da375a9836a2695e5ce4bde8f18f635a06",
+        "hash": "130023787",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Isaiah",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2024-06-05T06:35:07.000Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "215721eaf08d62e7d231609c062e737181067fc8",
+        "hash": "209338294",
         "path": "outstatic/content/pages/about.md"
       },
       "author": {
@@ -22,21 +40,21 @@
     },
     {
       "__outstatic": {
-        "commit": "aa0653e6177ef95da0341886abcb40cfa7dfff57",
-        "hash": "3780070503",
-        "path": "outstatic/content/projects/spitfire-records.md"
+        "commit": "54cb1a7be94e1455041d58d98280d5bdddce6757",
+        "hash": "367287130",
+        "path": "outstatic/content/projects/what-is-truth.md"
       },
       "author": {
         "name": "Isaiah Foulidis",
         "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
       },
       "collection": "projects",
-      "coverImage": "/images/img_1172-cxMD.jpeg",
-      "description": "Spitfire records is a full-stack e-commerce website built with PHP, JQuery, and MySQL.",
-      "publishedAt": "2024-06-06T07:39:03.611Z",
-      "slug": "spitfire-records",
+      "coverImage": "/images/main-advertising-card-g0NT.jpg",
+      "description": "What is truth has quizzes, stylish articles, and more...",
+      "publishedAt": "2024-06-03T04:54:50.147Z",
+      "slug": "what-is-truth",
       "status": "published",
-      "title": "Spitfire Records"
+      "title": "What Is Truth"
     },
     {
       "__outstatic": {
@@ -58,54 +76,8 @@
     },
     {
       "__outstatic": {
-        "commit": "a17395f97dee2995a06f9ae090cb4bb6638b1982",
-        "hash": "2586850342",
-        "path": "outstatic/content/posts/content-management-options.md"
-      },
-      "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/img_1178-MzMj.jpeg",
-      "description": "Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here.",
-      "publishedAt": "2024-06-08T23:23:31.446Z",
-      "slug": "content-management-options",
-      "status": "published",
-      "tags": [
-        {
-          "label": "NextJs",
-          "value": "nextJs"
-        },
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        }
-      ],
-      "title": "Content Management Options for Web Developers"
-    },
-    {
-      "__outstatic": {
-        "commit": "cf4540f0dbc5ba8227e7cfa0e7d9819e2148e66f",
-        "hash": "2491918814",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Isaiah",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2024-06-05T06:35:07.000Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "5557a21fed94a6ddc6d4bd97697471d8caeb1f7a",
-        "hash": "1596369722",
+        "commit": "639992c653614a58c4b99cf9c28ac8ebbf0b3d47",
+        "hash": "1363533534",
         "path": "outstatic/content/posts/ufc-data-analysis.md"
       },
       "author": {
@@ -136,21 +108,49 @@
     },
     {
       "__outstatic": {
-        "commit": "46ae6a5d33f2538beaf2bae6bf2210b0808a8884",
-        "hash": "3028819854",
-        "path": "outstatic/content/projects/what-is-truth.md"
+        "commit": "05e91e20b74504c50b46a5299ab58383c9833d7c",
+        "hash": "3368188313",
+        "path": "outstatic/content/posts/content-management-options.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/img_1178-MzMj.jpeg",
+      "description": "Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here.",
+      "publishedAt": "2024-06-08T23:23:31.446Z",
+      "slug": "content-management-options",
+      "status": "published",
+      "tags": [
+        {
+          "label": "NextJs",
+          "value": "nextJs"
+        },
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        }
+      ],
+      "title": "Content Management Options for Web Developers"
+    },
+    {
+      "__outstatic": {
+        "commit": "aa0653e6177ef95da0341886abcb40cfa7dfff57",
+        "hash": "3780070503",
+        "path": "outstatic/content/projects/spitfire-records.md"
       },
       "author": {
         "name": "Isaiah Foulidis",
         "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
       },
       "collection": "projects",
-      "coverImage": "/images/main-advertising-card-g0NT.jpg",
-      "description": "What is truth has quizzes, stylish articles, and more...",
-      "publishedAt": "2024-06-03T04:54:50.147Z",
-      "slug": "what-is-truth",
+      "coverImage": "/images/img_1172-cxMD.jpeg",
+      "description": "Spitfire records is a full-stack e-commerce website built with PHP, JQuery, and MySQL.",
+      "publishedAt": "2024-06-06T07:39:03.611Z",
+      "slug": "spitfire-records",
       "status": "published",
-      "title": "What Is Truth"
+      "title": "Spitfire Records"
     }
   ]
 }
