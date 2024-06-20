@@ -21,7 +21,7 @@ If you’re fairly new to front-end development, or scoping out your options for
 
 ## Option 1: Creating Your Own CMS
 
-Creating a CMS requires the most work, but it will give you the most control over the editor and types of content. (You might also want to consider using a headless CMS that allows customisation of the editor, such as Sanity.) Standard hosting will be required.
+Creating a CMS requires the most work, but it will give you the most control over the editor and types of content. (You might also want to consider using a headless CMS that allows customisation of the editor, such as Sanity.) Standard hosting fees will be required.
 
 If you don’t know where to start with setting up a CMS, really ask yourself if you want to commit a lot of time to this. If you do, you will need a database and a backend, or an integrated service that handles both, such as Firebase or Supabase. MySQL is a simple and ubiquitous database. Laravel (PHP) and Django (Python) are a couple of popular back-end options.
 
@@ -120,4 +120,4 @@ If you’re a beginner, you could create a simple blog with Bootstrap or customi
 
 ## Keystatic
 
-I am about to try out [Keystatic](https://keystatic.com/docs/introduction). It can store data locally in the repo of your front-end code, but cloud storage is also possible. Markdocs and MDX fields are supported, which is very neat.
+[Keystatic](https://keystatic.com/docs/introduction) is very cutting-edge, so unfortunately, I cannot recommend it as my favourite option quite yet. New features and documentation are still rolling out, and using anything but the bare basics can be a hastle. The editor is very nice though, and it is a promising tool. It can store data locally in the repo of your front-end code, but cloud storage is also possible. Markdocs and MDX fields are supported, which is what I am most excited about.

@@ -40,34 +40,36 @@ const ContentGrid = ({
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-x-6 lg:gap-x-8 gap-y-5 sm:gap-y-6 lg:gap-y-8 mt-4 md:mt-8">
         {items.map((item, id) => (
           <Link key={item.slug} href={`/${collection}/${item.slug}`}>
-            <div className="cursor-pointer border rounded-md md:w-full scale-100 hover:scale-[1.02] active:scale-[0.97] motion-safe:transform-gpu transition duration-100 motion-reduce:hover:scale-100 hover:shadow overflow-hidden h-full">
-              <Image
-                src={item.coverImage || `/api/og?title=${item.title}`}
-                alt=""
-                className="border-b md:h-[180px] object-cover object-center"
-                width={430}
-                height={180}
-                sizes="(min-width: 768px) 347px, 192px"
-                priority={priority && id <= 2}
-              />
-              <div className="p-4">
-                {Array.isArray(item?.tags)
-                  ? item.tags.map(({ label }) => (
-                      <span
-                        key={label}
-                        className="inline-block bg-gray-200 rounded-full px-2 py-0 text-sm font-semibold text-gray-700 mr-2 mb-4"
-                      >
-                        {label}
-                      </span>
-                    ))
-                  : null}
-                <h3 className="text-xl mb-2 leading-snug font-bold hover:underline">
-                  {item.title}
-                </h3>
-                <div className="text-md mb-4 text-slate-700"></div>
-                <p className="text-md leading-relaxed mb-4">
-                  {item.description}
-                </p>
+            <div className="cursor-pointer border rounded-md md:w-full scale-100 hover:scale-[1.02] active:scale-[0.97] motion-safe:transform-gpu transition duration-100 motion-reduce:hover:scale-100 hover:shadow overflow-hidden h-full bg-gradient-to-r from-sky-600 to-emerald-500 p-1">
+              <div className=" h-full w-full bg-white dark:bg-slate-800 border rounded-md">
+                <Image
+                  src={item.coverImage || `/api/og?title=${item.title}`}
+                  alt=""
+                  className="border-b md:h-[180px] object-cover object-center"
+                  width={430}
+                  height={180}
+                  sizes="(min-width: 768px) 347px, 192px"
+                  priority={priority && id <= 2}
+                />
+                <div className="p-4">
+                  {Array.isArray(item?.tags)
+                    ? item.tags.map(({ label }) => (
+                        <span
+                          key={label}
+                          className="inline-block bg-gray-200 rounded-full px-2 py-0 text-sm font-semibold text-gray-700 mr-2 mb-4"
+                        >
+                          {label}
+                        </span>
+                      ))
+                    : null}
+                  <h3 className="text-xl mb-2 leading-snug font-bold hover:underline">
+                    {item.title}
+                  </h3>
+                  <div className="text-md mb-4 text-slate-700"></div>
+                  <p className="text-md leading-relaxed mb-4">
+                    {item.description}
+                  </p>
+                </div>
               </div>
             </div>
           </Link>

@@ -4,6 +4,11 @@ import Image from "next/image";
 import { ImgHTMLAttributes, useMemo } from "react";
 import { CustomCode, Pre } from "./custom-code";
 import CustomLink from "./custom-link";
+import {
+  MotionParagraph,
+  MotionBlockquote,
+  MotionList,
+} from "./motion-components";
 
 const MDXComponentsMap = {
   a: CustomLink,
@@ -13,6 +18,9 @@ const MDXComponentsMap = {
   ),
   pre: Pre,
   code: CustomCode,
+  p: MotionParagraph,
+  blockquote: MotionBlockquote,
+  li: MotionList,
 };
 
 type MDXComponentProps = {

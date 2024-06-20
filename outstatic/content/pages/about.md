@@ -24,10 +24,14 @@ publishedAt: "2024-06-04T19:49:02.000Z"
 
 PaintR—an app which allows house painters and decorators to calculate their paint and labour usage, along with more features coming soon.
 
-### Tech I use 🎛️
+[UFC data analysis](/posts/ufc-data-analysis)—I analysed fight data with Pandas in a Jupyter notebook based on various metrics.
+
+Python apps—a flask blog, an interactive map, and a variety of other apps to get to know Python.
+
+### Tech I've used 🎛️
 
 ```javascript
-React, Next.js, Python, PHP, MySQL, Singer.io, Node.js, Git, React Native, Supabase, Framer Motion, Firebase...
+Next.js, Python, PHP, MySQL, Singer.io, Framer Motion, React, JS, JQuery, Git, React Native, Supabase, Node.js, Firebase...
 ```
 
 ### How to reach me 📫
