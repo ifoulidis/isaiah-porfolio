@@ -1,6 +1,5 @@
-import { GithubIcon, LinkedinIcon } from "lucide-react";
+import { GithubIcon } from "lucide-react";
 import Link from "next/link";
-import { BuiltWithOutstatic } from "./built-with-outstatic";
 
 const Footer = () => {
   return (
@@ -36,10 +35,7 @@ const Footer = () => {
           <p className="block md:hidden text-sm">
             © Isaiah Foulidis {new Date().getFullYear()}
           </p>
-          <div className="flex flex-row gap-2 items-center ">
-            <p className="text-sm">Built with</p>
-            <BuiltWithOutstatic fixed={false} />
-          </div>
+          <div className="flex flex-row gap-2 items-center "></div>
         </div>
       </footer>
     </div>

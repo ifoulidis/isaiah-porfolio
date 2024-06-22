@@ -23,13 +23,19 @@ const Header = async () => {
         <FromLeft title="Isaiah Foulidis" value={-100} />
         <SequentialTabs>
           {pages.map(({ title, slug }, index) => (
-            <FromTop title={title} slug={slug} y={index % 2 === 0 ? -50 : 50} />
+            <FromTop
+              title={title}
+              slug={slug}
+              key={slug}
+              y={index % 2 === 0 ? -50 : 50}
+            />
           ))}
           {collections.map((collection, index) => (
             <FromTop
               title={collection}
               slug={collection}
               y={index % 2 === 0 ? -50 : 50}
+              key={collection}
             />
           ))}
           <ThemeToggle />

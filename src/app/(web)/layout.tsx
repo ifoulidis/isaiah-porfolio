@@ -1,5 +1,3 @@
-import { BuiltWithOutstatic } from "@/components/built-with-outstatic";
-
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -56,7 +54,6 @@ export default function RootLayout({
           <div className="relative max-w-6xl mx-auto px-5 h-full pt-8 md:py-24">
             {children}
           </div>
-          <BuiltWithOutstatic fixed />
           <Footer />
         </ThemeProvider>
       </body>

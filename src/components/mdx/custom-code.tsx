@@ -1,3 +1,4 @@
+"use client";
 import useCopyToClipboard from "@/hooks/useCopyToClipboard";
 import clsx from "clsx";
 import { Check, Copy } from "lucide-react";

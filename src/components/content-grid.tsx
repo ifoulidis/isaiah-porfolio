@@ -8,7 +8,6 @@ import "../styles/global.css";
 import styles from "../styles/content-grid.module.css";
 import { motion } from "framer-motion";
 import { cardList, cardVariant } from "./ui/variants";
-import { MotionList } from "./mdx/motion-components";
 
 type Item = {
   tags?: { value: string; label: string }[];
@@ -82,10 +81,11 @@ const ContentGrid = ({
                 <h3 className="text-xl mb-2 leading-snug font-bold hover:underline">
                   {item.title}
                 </h3>
-                <div className="text-md mb-4 text-slate-700"></div>
-                <p className="text-md leading-relaxed mb-4">
-                  {item.description}
-                </p>
+                <div className="text-md mb-4 text-slate-700">
+                  <p className="text-md leading-relaxed mb-4">
+                    {item.description}
+                  </p>
+                </div>
               </div>
             </motion.div>
           </Link>

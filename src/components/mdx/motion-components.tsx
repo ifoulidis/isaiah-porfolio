@@ -1,9 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
-import { ReactNode } from "react";
 
 interface MotionProps {
-  children: ReactNode;
+  children: React.ReactNode;
 }
 
 export function MotionBlockquote({ children }: MotionProps) {

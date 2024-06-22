@@ -4,6 +4,7 @@ import { load } from "outstatic/server";
 import Logo from "../../../public/images/personal-logo.png";
 import Image from "next/image";
 import Reveal from "@/components/ui/reveal";
+import BGImage from "../../../public/images/background-dark.png";
 
 export default async function Index() {
   const { content, allPosts, otherCollections } = await getData();
@@ -15,7 +16,7 @@ export default async function Index() {
           className="prose lg:prose-2xl home-intro prose-outstatic home-hero-fade"
           dangerouslySetInnerHTML={{ __html: content }}
         ></div>
-        <div className="md:absolute bottom-0 left-0 md:right-0 w-400 h-400">
+        <div className="md:absolute bottom-0 left-[calc(50vw - 300px)] md:right-0 w-400 h-400">
           <Reveal delay={1.2}>
             <Image src={Logo} alt="Personal Logo" width={300} height={300} />
           </Reveal>
