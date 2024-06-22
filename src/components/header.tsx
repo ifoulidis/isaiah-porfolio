@@ -1,8 +1,9 @@
-import Link from "next/link";
 import { getCollections, load } from "outstatic/server";
 import { MobileMenu } from "./mobile-menu";
 import { ThemeToggle } from "./theme-toggle";
-import { buttonVariants } from "./ui/button";
+import FromLeft from "./ui/from-left";
+import FromTop from "./ui/from-y";
+import SequentialTabs from "./ui/sequential-tabs";
 
 export type MenuProps = {
   pages: {
@@ -17,43 +18,22 @@ const Header = async () => {
   const { pages, collections } = data;
 
   return (
-    <header className="py-4 fixed bottom-0 border-t md:bottom-auto md:top-0 w-full z-20 border-b bg-background">
-      <nav className="max-w-6xl mx-auto w-full layout flex items-center justify-between">
-        <Link
-          href="/"
-          className="hover:text-slate-900 hover:dark:text-blue-200 px-5 underline-offset-2 font-semibold transition-all hover:scale-105"
-        >
-          Isaiah Foulidis
-        </Link>
-        <ul className="hidden md:flex items-center justify-between space-x-3 text-xs md:space-x-4 md:text-base">
-          {pages.map(({ title, slug }) => (
-            <li key={slug}>
-              <Link
-                href={`/${slug}`}
-                className={
-                  buttonVariants({ variant: "ghost", size: "sm" }) +
-                  " capitalize"
-                }
-              >
-                {title}
-              </Link>
-            </li>
+    <header className=" py-4 fixed bottom-0 border-t border-blue-900 md:bottom-auto md:top-0 w-full z-20 border-b bg-background">
+      <nav className="max-w-6xl mx-auto w-full layout flex items-center justify-between ">
+        <FromLeft title="Isaiah Foulidis" value={-100} />
+        <SequentialTabs>
+          {pages.map(({ title, slug }, index) => (
+            <FromTop title={title} slug={slug} y={index % 2 === 0 ? -50 : 50} />
           ))}
-          {collections.map((collection) => (
-            <li key={collection}>
-              <Link
-                href={`/${collection}`}
-                className={
-                  buttonVariants({ variant: "ghost", size: "sm" }) +
-                  " capitalize"
-                }
-              >
-                {collection}
-              </Link>
-            </li>
+          {collections.map((collection, index) => (
+            <FromTop
+              title={collection}
+              slug={collection}
+              y={index % 2 === 0 ? -50 : 50}
+            />
           ))}
           <ThemeToggle />
-        </ul>
+        </SequentialTabs>
         <MobileMenu pages={pages} collections={collections} />
       </nav>
     </header>
