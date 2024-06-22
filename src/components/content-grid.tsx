@@ -81,11 +81,10 @@ const ContentGrid = ({
                 <h3 className="text-xl mb-2 leading-snug font-bold hover:underline">
                   {item.title}
                 </h3>
-                <div className="text-md mb-4 text-slate-700">
-                  <p className="text-md leading-relaxed mb-4">
-                    {item.description}
-                  </p>
-                </div>
+
+                <p className="text-md leading-relaxed mb-4">
+                  {item.description}
+                </p>
               </div>
             </motion.div>
           </Link>
