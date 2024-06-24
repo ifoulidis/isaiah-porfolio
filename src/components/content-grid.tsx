@@ -46,12 +46,13 @@ const ContentGrid = ({
         initial="hidden"
         whileInView="visible"
         variants={cardList}
+        viewport={{ once: true }}
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:gap-x-6 lg:gap-x-8 gap-y-5 sm:gap-y-6 lg:gap-y-8 mt-4 md:mt-8"
       >
         {items.map((item, id) => (
           <Link key={item.slug} href={`/${collection}/${item.slug}`}>
             <motion.div
-              variants={cardVariant}
+              variants={cardList}
               whileHover={{ background: "#01538a" }}
               className={[
                 " h-full w-full bg-white dark:bg-slate-800 border relative rounded-md",
