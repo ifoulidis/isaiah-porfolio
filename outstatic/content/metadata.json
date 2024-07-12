@@ -1,6 +1,6 @@
 {
-  "commit": "79b4e03f25bb038b3addcd7329462f1ad75f854c",
-  "generated": "Thu, 20 Jun 2024 10:23:28 GMT",
+  "commit": "115d16b7218d614bf758334bf4b5022ea9a978ce",
+  "generated": "2024-07-12T05:14:51.885Z",
   "metadata": [
     {
       "__outstatic": {
@@ -151,6 +151,24 @@
       "slug": "spitfire-records",
       "status": "published",
       "title": "Spitfire Records"
+    },
+    {
+      "__outstatic": {
+        "commit": "115d16b7218d614bf758334bf4b5022ea9a978ce",
+        "hash": "2253833773",
+        "path": "outstatic/content/projects/adobe-analytics-to-postgres-pipeline.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/adobe-anaytics-to-postgresql-k5OD.jpg",
+      "description": "A pipeline that extracts data from Adobe Anaytics to Postgres daily.",
+      "publishedAt": "2024-07-12T05:40:47.466Z",
+      "slug": "adobe-analytics-to-postgres-pipeline",
+      "status": "draft",
+      "title": "Adobe Analytics to Postgres Pipeline"
     }
   ]
 }
