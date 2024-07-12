@@ -1,6 +1,6 @@
 {
-  "commit": "115d16b7218d614bf758334bf4b5022ea9a978ce",
-  "generated": "2024-07-12T05:14:51.885Z",
+  "commit": "56d0fe097882ff32676eaa7892031c02a5bbf01c",
+  "generated": "2024-07-12T05:15:55.847Z",
   "metadata": [
     {
       "__outstatic": {
@@ -154,8 +154,8 @@
     },
     {
       "__outstatic": {
-        "commit": "115d16b7218d614bf758334bf4b5022ea9a978ce",
-        "hash": "2253833773",
+        "commit": "56d0fe097882ff32676eaa7892031c02a5bbf01c",
+        "hash": "775078771",
         "path": "outstatic/content/projects/adobe-analytics-to-postgres-pipeline.md"
       },
       "author": {
@@ -167,7 +167,7 @@
       "description": "A pipeline that extracts data from Adobe Anaytics to Postgres daily.",
       "publishedAt": "2024-07-12T05:40:47.466Z",
       "slug": "adobe-analytics-to-postgres-pipeline",
-      "status": "draft",
+      "status": "published",
       "title": "Adobe Analytics to Postgres Pipeline"
     }
   ]
