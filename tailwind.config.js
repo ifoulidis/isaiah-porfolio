@@ -17,6 +17,13 @@ module.exports = {
       },
     },
     extend: {
+      rotate: {
+        "x-20": "20deg",
+        "y-30": "30deg",
+      },
+      translate: {
+        "z-0": "0px",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

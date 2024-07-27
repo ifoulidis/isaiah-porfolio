@@ -3,3 +3,11 @@
   inherits: true;
   initial-value: 0%;
 }
+
+html {
+  overflow-x: hidden;
+}
+
+.lock-scroll {
+  overflow: hidden;
+}

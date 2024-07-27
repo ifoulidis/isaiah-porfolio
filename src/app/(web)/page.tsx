@@ -1,28 +1,16 @@
 import ContentGrid from "@/components/content-grid";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { load } from "outstatic/server";
-import Logo from "../../../public/images/personal-logo.png";
 import Image from "next/image";
-import Reveal from "@/components/ui/reveal";
-import BGImage from "../../../public/images/background-dark.png";
+import HomeHero from "@/components/homeHero";
 
 export default async function Index() {
   const { content, allPosts, otherCollections } = await getData();
 
   return (
     <>
-      <section className="my-8 md:my-16 min-h-[50vh] md:min-h-[calc(100vh-200px)] items-start relative flex-col ">
-        <div
-          className="prose lg:prose-2xl home-intro prose-outstatic home-hero-fade"
-          dangerouslySetInnerHTML={{ __html: content }}
-        ></div>
-        <div className="md:absolute bottom-0 left-[calc(50vw - 300px)] md:right-0 w-400 h-400">
-          <Reveal delay={1.2}>
-            <Image src={Logo} alt="Personal Logo" width={300} height={300} />
-          </Reveal>
-        </div>
-      </section>
-      <div className="animate-fade-in delay-1000 opacity-0 duration-500">
+      <HomeHero />
+      <div className="relative max-w-6xl mx-auto px-5 animate-fade-in delay-1000 opacity-0 duration-500">
         {Object.keys(otherCollections).map((collection) => {
           if (!collection.length) return null;
           return (

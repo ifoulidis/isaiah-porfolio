@@ -9,7 +9,7 @@ type Doc = {
 export default function DocHero(doc: Doc) {
   return (
     <>
-      <div className="relative mb-2 md:mb-4 sm:mx-0 w-full h-52 md:h-96">
+      <div className="relative mb-2 md:mb-4 sm:mx-0 w-full aspect-video lg:h-[550px]">
         <Image
           alt={doc.title}
           src={doc.coverImage || `/api/og?title=${doc.title}`}

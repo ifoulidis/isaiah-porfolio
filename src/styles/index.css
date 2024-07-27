@@ -91,8 +91,16 @@
   --tw-prose-code: #000;
 }
 
+.home-hero-fade > h1 {
+  @apply text-gray-800;
+}
+
+.home-hero-fade > p {
+  @apply text-white bg-gray-800;
+}
+
 .prose :where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-  @apply px-4 pb-4 pt-6 border rounded-sm bg-gray-800 dark:bg-gray-800 text-white dark:text-gray-800;
+  @apply px-4 pb-4 pt-6 border rounded-sm bg-gray-800 dark:bg-gray-800 text-white;
 }
 
 @media (min-width: 768px) {
@@ -103,7 +111,7 @@
 }
 
 .prose :where(code):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-  @apply px-0 py-1 border rounded-sm bg-gray-800 dark:bg-gray-800 text-white;
+  @apply px-0 py-1 border rounded-sm bg-gray-800  text-white;
 }
 
 .prose

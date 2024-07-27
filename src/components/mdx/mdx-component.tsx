@@ -8,6 +8,7 @@ import {
   MotionParagraph,
   MotionBlockquote,
   MotionList,
+  MotionHeading,
 } from "./motion-components";
 
 const MDXComponentsMap = {
@@ -21,6 +22,7 @@ const MDXComponentsMap = {
   p: MotionParagraph,
   blockquote: MotionBlockquote,
   li: MotionList,
+  h1: MotionHeading,
 };
 
 type MDXComponentProps = {
@@ -33,7 +35,6 @@ export const MDXComponent = ({
   components = {},
 }: MDXComponentProps) => {
   const Component = useMemo(() => getMDXComponent(content), [content]);
-
   return (
     <Component
       components={

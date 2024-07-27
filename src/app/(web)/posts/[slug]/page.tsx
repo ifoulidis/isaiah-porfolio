@@ -53,14 +53,16 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
 export default async function Post(params: Params) {
   const post = await getData(params);
   return (
-    <article className="mb-32">
-      <DocHero {...post} />
-      <div className="max-w-2xl mx-auto">
-        <div className="prose prose-outstatic">
-          <MDXComponent content={post.content} />
+    <div className="relative max-w-6xl mx-auto px-5 h-full pt-8 md:py-24">
+      <article className="mb-32 mx-0 py-2 md:py-16">
+        <DocHero {...post} />
+        <div className="max-w-2xl mx-auto ">
+          <div className="prose prose-outstatic">
+            <MDXComponent content={post.content} />
+          </div>
         </div>
-      </div>
-    </article>
+      </article>
+    </div>
   );
 }
 
