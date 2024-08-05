@@ -53,7 +53,6 @@ export const MotionHeading = ({ children }: MotionProps) => {
         style={{ position: "relative" }}
         className="anchored"
         onClick={() => {
-          window.scrollLock;
           copyToClipboard(customId);
         }}
       >
