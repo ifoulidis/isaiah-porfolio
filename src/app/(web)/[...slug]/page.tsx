@@ -74,11 +74,15 @@ export default async function Document(params: Params) {
 
   if (doc.collection === "pages") {
     return (
-      <article className="mb-32 py-24">
-        <div className="prose md:prose-xl prose-outstatic animate-fade-up opacity-0">
-          <MDXComponent content={doc.content} />
-        </div>
-      </article>
+      <div className="relative max-w-6xl mx-auto px-5 animate-fade-in delay-1000 opacity-0 duration-500">
+        <article className="mb-32 py-24">
+          <div className="max-w-2xl mx-auto">
+            <div className="prose md:prose-xl prose-outstatic animate-fade-up opacity-0">
+              <MDXComponent content={doc.content} />
+            </div>
+          </div>
+        </article>
+      </div>
     );
   }
 
