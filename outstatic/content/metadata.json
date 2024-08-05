@@ -1,6 +1,6 @@
 {
-  "commit": "56d0fe097882ff32676eaa7892031c02a5bbf01c",
-  "generated": "2024-07-12T05:15:55.847Z",
+  "commit": "361eeaf7af3e1753cb9504023526e560f7ddeecb",
+  "generated": "2024-08-05T19:17:11.679Z",
   "metadata": [
     {
       "__outstatic": {
@@ -169,6 +169,38 @@
       "slug": "adobe-analytics-to-postgres-pipeline",
       "status": "published",
       "title": "Adobe Analytics to Postgres Pipeline"
+    },
+    {
+      "__outstatic": {
+        "commit": "361eeaf7af3e1753cb9504023526e560f7ddeecb",
+        "hash": "1828714153",
+        "path": "outstatic/content/posts/decapcms-fixes.md"
+      },
+      "author": {
+        "name": "Isaiah",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "DecapCMS has not been maintained for a long time, but it's still a good option in a lot of cases. Here are some ways around major issues...",
+      "publishedAt": "2024-08-05T20:23:50.826Z",
+      "slug": "decapcms-fixes",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "DecapCMS",
+          "value": "decapCms"
+        },
+        {
+          "label": "mobile",
+          "value": "mobile"
+        },
+        {
+          "label": "headless CMS",
+          "value": "headlessCms"
+        }
+      ],
+      "title": "DecapCMS Fixes"
     }
   ]
 }

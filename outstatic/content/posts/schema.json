@@ -32,6 +32,18 @@
         {
           "value": "pandas",
           "label": "Pandas"
+        },
+        {
+          "value": "decapCms",
+          "label": "DecapCMS"
+        },
+        {
+          "value": "mobile",
+          "label": "mobile"
+        },
+        {
+          "value": "headlessCms",
+          "label": "headless CMS"
         }
       ]
     }
