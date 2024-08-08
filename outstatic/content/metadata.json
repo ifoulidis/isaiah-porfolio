@@ -1,6 +1,6 @@
 {
-  "commit": "361eeaf7af3e1753cb9504023526e560f7ddeecb",
-  "generated": "2024-08-05T19:17:11.679Z",
+  "commit": "33c1be7e7b753449688a548aab042e55b5a5193f",
+  "generated": "2024-08-08T05:44:46.462Z",
   "metadata": [
     {
       "__outstatic": {
@@ -108,34 +108,6 @@
     },
     {
       "__outstatic": {
-        "commit": "05e91e20b74504c50b46a5299ab58383c9833d7c",
-        "hash": "3368188313",
-        "path": "outstatic/content/posts/content-management-options.md"
-      },
-      "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/img_1178-MzMj.jpeg",
-      "description": "Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here.",
-      "publishedAt": "2024-06-08T23:23:31.446Z",
-      "slug": "content-management-options",
-      "status": "published",
-      "tags": [
-        {
-          "label": "NextJs",
-          "value": "nextJs"
-        },
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        }
-      ],
-      "title": "Content Management Options for Web Developers"
-    },
-    {
-      "__outstatic": {
         "commit": "aa0653e6177ef95da0341886abcb40cfa7dfff57",
         "hash": "3780070503",
         "path": "outstatic/content/projects/spitfire-records.md"
@@ -201,6 +173,34 @@
         }
       ],
       "title": "DecapCMS Fixes"
+    },
+    {
+      "__outstatic": {
+        "commit": "33c1be7e7b753449688a548aab042e55b5a5193f",
+        "hash": "107410841",
+        "path": "outstatic/content/posts/content-management-options.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/img_1178-MzMj.jpeg",
+      "description": "Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here.",
+      "publishedAt": "2024-06-08T23:23:31.446Z",
+      "slug": "content-management-options",
+      "status": "published",
+      "tags": [
+        {
+          "label": "NextJs",
+          "value": "nextJs"
+        },
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        }
+      ],
+      "title": "Content Management Options for Web Developers"
     }
   ]
 }
