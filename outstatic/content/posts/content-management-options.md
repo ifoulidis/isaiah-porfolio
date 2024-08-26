@@ -1,25 +1,21 @@
 ---
-title: "Content Management Options for Web Developers"
-status: "published"
+title: 'Content Management Options for Web Developers'
+status: 'published'
 author:
-  name: "Isaiah Foulidis"
-  picture: "https://avatars.githubusercontent.com/u/44555774?v=4"
-slug: "content-management-options"
-description: "Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here."
-coverImage: "/images/img_1178-MzMj.jpeg"
-tags:
-  [
-    { "value": "nextJs", "label": "NextJs" },
-    { "value": "outstatic", "label": "Outstatic" },
-  ]
-publishedAt: "2024-06-08T23:23:31.446Z"
+  name: 'Isaiah Foulidis'
+  picture: 'https://avatars.githubusercontent.com/u/44555774?v=4'
+slug: 'content-management-options'
+description: 'Whether you’re a bit tech-savvy and want to create your own blog or need to create a content-driven website for a client, you can start here.'
+coverImage: '/images/img_1178-MzMj.jpeg'
+tags: [{"value":"nextJs","label":"NextJs"},{"value":"outstatic","label":"Outstatic"}]
+publishedAt: '2024-06-08T23:23:31.446Z'
 ---
 
 If you’re fairly new to front-end development, or scoping out your options for handling large amounts of content, you might wonder where to start. This article should help you out.
 
 # General Content Management Options
 
-## Option 1: Creating Your Own CMS
+## Option 1: Using a CMS
 
 Creating a CMS requires the most work, but it will give you the most control over the editor and types of content. (You might also want to consider using a headless CMS that allows customisation of the editor, such as Sanity.) Standard hosting fees will be required.
 
@@ -69,7 +65,7 @@ Whether you’re using plain HTML and JavaScript or bleeding-edge web tools, it 
 
 ## Styling options
 
-Besides the usual CSS options, with modern frameworks and tools, you have plenty of options to speed up the process or easily separate the styles for your content from the rest of your website styles; e.g., [Tailwind](<%5Bhttps://tailwindcss.com%5D(https://tailwindcss.com/)>), [Styled JSX](https://nextjs.org/blog/styling-next-with-styled-jsx), [modular styles](https://www.gatsbyjs.com/docs/how-to/styling/css-modules/), and [Material UI](https://mui.com/material-ui/all-components/).
+Besides the usual CSS options, with modern frameworks and tools, you have plenty of options to speed up the process or easily separate the styles for your content from the rest of your website styles; e.g., [Tailwind](%5Bhttps://tailwindcss.com%5D\(https://tailwindcss.com/\)), [Styled JSX](https://nextjs.org/blog/styling-next-with-styled-jsx), [modular styles](https://www.gatsbyjs.com/docs/how-to/styling/css-modules/), and [Material UI](https://mui.com/material-ui/all-components/).
 
 Tailwind, for example, has typography classes that provide with you truly classy styles for the elements in your articles in a moment. You can also easily specify choices from the available colour schemes for light and dark modes.
 
@@ -86,7 +82,7 @@ When considering a framework, you may want to use one you are likely to use for 
 
 ## Outstatic
 
-[Outstatic](<%5Bhttps://outstatic.com%5D(https://outstatic.com/)>) is a headless CMS that supports using local files, so if you want to host a free site on Vercel, this is a great choice. You can deploy a starter in one click and make it your own from there.
+[Outstatic](%5Bhttps://outstatic.com%5D\(https://outstatic.com/\)) is a headless CMS that supports using local files, so if you want to host a free site on Vercel, this is a great choice. You can deploy a starter in one click and make it your own from there.
 
 The editor is good-looking and user-friendly, which is great. However, I have found that I need to rebuild the metadata when I add posts (there is a button for this in Settings), which is slightly annoying. Changing a post from draft to published also seems to be an issue on mobile.
 
@@ -108,7 +104,7 @@ The studio, where content is managed, is fully customisable, and is quite sleek 
 
 ## Decap CMS
 
-[Decap CMS](<%5Bhttps://decapcms.org%5D(https://decapcms.org/)>) provides you with a content editor with a simplified preview panel. You can use the editor from anywhere and host the files for free in the same repo as your front-end code. This is easiest to use with Netlify for authentication. Just make sure to read your emails in case your site suddenly blows up, as you’ll need to take it offline to avoid being charged.
+[Decap CMS](%5Bhttps://decapcms.org%5D\(https://decapcms.org/\)) provides you with a content editor with a simplified preview panel. You can use the editor from anywhere and host the files for free in the same repo as your front-end code. This is easiest to use with Netlify for authentication. Just make sure to read your emails in case your site suddenly blows up, as you’ll need to take it offline to avoid being charged.
 
 I find the editor clunky on mobile, which I actually would like to use when I have a free moment. The editor was also buggy until very recently: some people, myself included, found they could not edit any text without the cursor moving to the end of the paragraph after entering one letter (on a desktop). This issue was around for years, showing this project was probably not well maintained, but their website seems to have gotten a facelift, so maybe this will change.
 
