@@ -87,8 +87,8 @@ export default async function Document(params: Params) {
   }
 
   return (
-    <div className="relative max-w-6xl mx-auto px-5 animate-fade-in delay-1000 opacity-0 duration-500">
-      <article className="mb-32">
+    <div className="relative max-w-6xl mx-auto px-5 h-full pt-8 md:py-24">
+      <article className="mb-32 mx-0 py-2 md:py-16">
         <DocHero {...doc} />
         <div className="max-w-2xl mx-auto">
           <div className="prose prose-outstatic">

@@ -111,7 +111,7 @@ function HomeHero() {
           }}
           style={{
             left: width < 776 ? mobileLefts[inx] : lefts[inx],
-            zIndex: `${inx === 0 ? "4" : inx === 1 ? "3" : "2"}`,
+            zIndex: `${inx === 0 ? "6" : inx === 1 ? "4" : "2"}`,
           }}
           whileHover={{
             top: animateTops[inx],
@@ -128,10 +128,7 @@ function HomeHero() {
           />
         </motion.div>
       ))}
-      <p
-        className="absolute text-black dark:text-white"
-        style={{ bottom: "20%" }}
-      >
+      <p className="absolute text-black dark:text-white bottom-[25%] md:bottom-[20%]">
         {clickTap} to see more
       </p>
     </div>

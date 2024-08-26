@@ -15,7 +15,7 @@ const ImageModal: React.FC<ModalProps> = ({ index, close }) => {
     {
       id: 0,
       title: "Grappling HQ",
-      link: "https://grappling-hq.vercel.app/",
+      link: "https://grapplinghq.com/",
       skills: ["design", "animation"],
       client: "Grappling HQ",
       description: (
@@ -46,7 +46,7 @@ const ImageModal: React.FC<ModalProps> = ({ index, close }) => {
       id: 2,
       title: "What Is Truth",
       link: "https://whatistruth.co.nz",
-      skills: [""],
+      skills: ["NextJS", "CSS", "MD", "animation"],
       client: "Self",
       description: (
         <p>
@@ -95,7 +95,7 @@ const ImageModal: React.FC<ModalProps> = ({ index, close }) => {
           </div>
         </div>
         {/* Sidebar */}
-        <div className="sm:w-[20%] px-4 overflow-y-auto flex-col align-middle">
+        <div className="sm:w-[20%] px-4 overflow-y-auto flex-col my-auto">
           <h2 className="text-xl font-bold">{projectData.title}</h2>
           <br />
           <p>
