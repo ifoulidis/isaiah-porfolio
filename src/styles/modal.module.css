@@ -30,9 +30,10 @@
 @media screen and (max-width: 776px) {
   .modal {
     flex-direction: column;
+    overflow-y: auto;
   }
   .backdrop {
-    padding-top: 10%;
+    padding-top: 2rem;
     align-items: flex-start;
   }
 }
