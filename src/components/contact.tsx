@@ -61,7 +61,7 @@ export default function ContactForm({ initialSubject }: ContactFormProps) {
         })
         .catch((error) => {
           console.error("Error sending email:", error);
-          setconfirmation(
+          setConfirmation(
             "There was an error sending your email! Please refresh the page and try again"
           );
         });
