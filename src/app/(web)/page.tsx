@@ -1,7 +1,6 @@
 import ContentGrid from "@/components/content-grid";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { load } from "outstatic/server";
-import Image from "next/image";
 import HomeHero from "@/components/homeHero";
 
 export default async function Index() {

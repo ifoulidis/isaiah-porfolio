@@ -42,6 +42,30 @@ export const MobileMenu = ({ pages, collections }: MenuProps) => {
                   </Link>
                 </li>
               ))}
+              <li key="contact">
+                <Link
+                  onClick={() => setOpen(false)}
+                  className={
+                    buttonVariants({ variant: "secondary" }) +
+                    " capitalize w-full"
+                  }
+                  href="/contact"
+                >
+                  Contact
+                </Link>
+              </li>
+              <li key="pricing">
+                <Link
+                  onClick={() => setOpen(false)}
+                  className={
+                    buttonVariants({ variant: "secondary" }) +
+                    " capitalize w-full"
+                  }
+                  href="/pricing"
+                >
+                  Pricing
+                </Link>
+              </li>
               {collections.map((collection) => (
                 <li key={collection}>
                   <Link

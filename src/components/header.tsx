@@ -30,6 +30,8 @@ const Header = async () => {
               y={index % 2 === 0 ? -50 : 50}
             />
           ))}
+          <FromTop title={"Contact"} slug="contact" key="contact" y={50} />
+          <FromTop title={"Pricing"} slug="pricing" key="pricing" y={50} />
           {collections.map((collection, index) => (
             <FromTop
               title={collection}
