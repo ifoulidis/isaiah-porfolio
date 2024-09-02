@@ -76,7 +76,7 @@ function HomeHero() {
   const imgDimensions: number[] = [500, 250, 300, 150];
 
   return (
-    <div className="h-screen flex justify-center sm:items-center py-20 sm:py-0 sticky">
+    <div className="min-h-screen flex justify-center sm:items-center py-20 sm:py-0 sticky">
       <AnimatePresence>
         {visible && (
           <ImageModal
