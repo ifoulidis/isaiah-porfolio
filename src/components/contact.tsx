@@ -57,7 +57,7 @@ export default function ContactForm({ initialSubject }: ContactFormProps) {
         )
         .then((response) => {
           console.log("Email sent!", response.status, response.text);
-          setconfirmation("Email sent successfully!");
+          setConfirmation("Email sent successfully!");
         })
         .catch((error) => {
           console.error("Error sending email:", error);
