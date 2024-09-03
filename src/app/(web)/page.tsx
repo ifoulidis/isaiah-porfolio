@@ -2,6 +2,7 @@ import ContentGrid from "@/components/content-grid";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { load } from "outstatic/server";
 import HomeHero from "@/components/homeHero";
+import Services from "@/components/services";
 
 export default async function Index() {
   const { content, allPosts, otherCollections } = await getData();
@@ -9,7 +10,8 @@ export default async function Index() {
   return (
     <>
       <HomeHero />
-      <div className="relative max-w-6xl mx-auto px-5 animate-fade-in delay-1000 opacity-0 duration-500">
+      <Services />
+      <div className="relative max-w-6xl mx-auto px-5 animate-fade-in delay-1000 opacity-0 duration-500 py-16">
         {Object.keys(otherCollections).map((collection) => {
           if (!collection.length) return null;
           return (
