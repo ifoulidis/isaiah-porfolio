@@ -74,7 +74,7 @@ export default function ContactForm({ initialSubject }: ContactFormProps) {
   };
 
   return (
-    <div className="relative max-w-6xl mx-auto px-5 py-10 animate-fade-in delay-1000 opacity-0 duration-500">
+    <div className="relative max-w-6xl md:mx-auto md:px-5 md:py-10 animate-fade-in delay-1000 opacity-0 duration-500">
       <main className="bg-white dark:bg-gray-900 p-8 rounded-lg shadow-md">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
           Get In Touch

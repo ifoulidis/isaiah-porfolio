@@ -3,7 +3,7 @@ import MotionCard from "@/components/ui/motion-card";
 export default function Pricing() {
   return (
     <div className="relative max-w-6xl mx-auto px-5 animate-fade-in delay-1000 opacity-0 duration-500">
-      <article className="mb-32 py-24">
+      <article className="mb-32 md:py-24">
         <div className="max-w-2xl mx-auto">
           <div className="prose md:prose-xl prose-outstatic animate-fade-up opacity-0">
             <MotionCard

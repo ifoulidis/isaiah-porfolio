@@ -70,7 +70,7 @@ const ImageModal: React.FC<ModalProps> = ({ index, close }) => {
   return (
     <div className={styles.backdrop} onClick={close}>
       <motion.div
-        className={`${styles.modal} bg-background text-foreground`}
+        className={`${styles.modal} bg-background text-foreground mb-[80px]`}
         initial={{ opacity: 0, scale: 0.7, x: 300 }}
         animate={{ opacity: 1, scale: 1, x: 0, transition: { duration: 0.5 } }}
         exit={{ opacity: 0, scale: 0.7, x: -300 }}
