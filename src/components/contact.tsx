@@ -57,11 +57,11 @@ export default function ContactForm({ initialSubject }: ContactFormProps) {
         )
         .then((response) => {
           console.log("Email sent!", response.status, response.text);
-          setconfirmation("Email sent successfully!");
+          setConfirmation("Email sent successfully!");
         })
         .catch((error) => {
           console.error("Error sending email:", error);
-          setconfirmation(
+          setConfirmation(
             "There was an error sending your email! Please refresh the page and try again"
           );
         });
