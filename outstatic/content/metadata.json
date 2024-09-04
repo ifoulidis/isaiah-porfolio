@@ -1,6 +1,6 @@
 {
-  "commit": "33c1be7e7b753449688a548aab042e55b5a5193f",
-  "generated": "2024-08-08T05:44:46.462Z",
+  "commit": "7d107e7693a40e5e7de4952d344c8fc03f12299e",
+  "generated": "2024-09-04T01:00:18.293Z",
   "metadata": [
     {
       "__outstatic": {
@@ -201,6 +201,24 @@
         }
       ],
       "title": "Content Management Options for Web Developers"
+    },
+    {
+      "__outstatic": {
+        "commit": "7d107e7693a40e5e7de4952d344c8fc03f12299e",
+        "hash": "1901570096",
+        "path": "outstatic/content/projects/grappling-hq.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-04T01:58:19.697Z",
+      "slug": "grappling-hq",
+      "status": "draft",
+      "title": "Grappling HQ"
     }
   ]
 }
