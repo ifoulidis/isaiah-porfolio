@@ -5,7 +5,7 @@ author:
   name: 'Isaiah Foulidis'
   picture: 'https://avatars.githubusercontent.com/u/44555774?v=4'
 slug: 'grappling-hq'
-description: ''
+description: 'A modern website for a grappling gym in Tauranga.'
 coverImage: ''
 publishedAt: '2024-09-04T01:58:19.697Z'
 ---

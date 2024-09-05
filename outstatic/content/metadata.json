@@ -1,6 +1,6 @@
 {
-  "commit": "cc5393b4ea91fe5bd5a62ecc4e0e4233d736d720",
-  "generated": "2024-09-05T07:36:53.093Z",
+  "commit": "d2e7fdc28e14755abcc111a1df4726bae466661a",
+  "generated": "2024-09-05T07:42:08.296Z",
   "metadata": [
     {
       "__outstatic": {
@@ -186,24 +186,6 @@
     },
     {
       "__outstatic": {
-        "commit": "7d107e7693a40e5e7de4952d344c8fc03f12299e",
-        "hash": "1901570096",
-        "path": "outstatic/content/projects/grappling-hq.md"
-      },
-      "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-09-04T01:58:19.697Z",
-      "slug": "grappling-hq",
-      "status": "draft",
-      "title": "Grappling HQ"
-    },
-    {
-      "__outstatic": {
         "commit": "cc5393b4ea91fe5bd5a62ecc4e0e4233d736d720",
         "hash": "1594112077",
         "path": "outstatic/content/pages/about.md"
@@ -219,6 +201,24 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "d2e7fdc28e14755abcc111a1df4726bae466661a",
+        "hash": "2675423735",
+        "path": "outstatic/content/projects/grappling-hq.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "",
+      "description": "A modern website for a grappling gym in Tauranga.",
+      "publishedAt": "2024-09-04T01:58:19.697Z",
+      "slug": "grappling-hq",
+      "status": "draft",
+      "title": "Grappling HQ"
     }
   ]
 }
