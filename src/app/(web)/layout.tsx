@@ -28,6 +28,13 @@ export const metadata: Metadata = {
     // ],
     locale: "en_NZ",
     type: "website",
+    images: [
+      {
+        url: "https://ifoulidis.vercel.app/images/logo.jpg",
+        width: 800,
+        height: 600,
+      },
+    ],
   },
   icons: {
     icon: [{ url: "/favicon/favicon-32x32.png" }],
