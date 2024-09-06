@@ -1,16 +1,18 @@
 ---
-title: "About Me"
-status: "published"
+title: 'About Me'
+status: 'published'
 author:
-  name: "Isaiah"
-  picture: ""
-slug: "about"
-description: "I'm Isaiah, a developer from New Zealand"
-coverImage: ""
-publishedAt: "2024-06-04T19:49:02.000Z"
+  name: 'Isaiah'
+  picture: ''
+slug: 'about'
+description: 'I''m Isaiah, a developer from New Zealand'
+coverImage: ''
+publishedAt: '2024-06-04T19:49:02.000Z'
 ---
 
 ## Hey, I'm Isaiah! 👋
+
+![](/images/img_1183-U1MD.jpeg)
 
 🤖 Web and Software Developer\
 🇳🇿 From Matamata, New Zealand\
