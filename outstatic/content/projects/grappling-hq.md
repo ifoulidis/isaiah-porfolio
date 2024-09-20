@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/44555774?v=4'
 slug: 'grappling-hq'
 description: 'A modern website for a grappling gym in Tauranga.'
-coverImage: ''
+coverImage: '/images/chris-one-arm-choke-E3MD.jpg'
 publishedAt: '2024-09-04T01:58:19.697Z'
 ---
 
@@ -23,13 +23,18 @@ After deploying a draft on a Vercel subdomain that he really liked, I sent him a
 ## Features
 
 - Responsive design for optimal performance on desktop and mobile devices.
+
 - Subtle effects and animations for a high-quality user experience.
+
 - Contact page with Google Maps integration.
+
 - Google Analytics.
 
   ### Coming Soon
+
 - Martialytics integration for signing up new students.
-- Competition page with possible use of Outstatic for content management. 
+
+- Competition page with possible use of Outstatic for content management.
 
 ## Technical Details
 

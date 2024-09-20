@@ -1,6 +1,6 @@
 {
-  "commit": "e4fd209c30a44bef01b5e1585f840f573dbb5dc9",
-  "generated": "2024-09-20T20:38:01.452Z",
+  "commit": "74a20514afdb6f372996f1c8e081b0fa1b7c00f3",
+  "generated": "2024-09-20T21:11:35.632Z",
   "metadata": [
     {
       "__outstatic": {
@@ -204,8 +204,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e4fd209c30a44bef01b5e1585f840f573dbb5dc9",
-        "hash": "1078809487",
+        "commit": "74a20514afdb6f372996f1c8e081b0fa1b7c00f3",
+        "hash": "1496493743",
         "path": "outstatic/content/projects/grappling-hq.md"
       },
       "author": {
@@ -213,7 +213,7 @@
         "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
       },
       "collection": "projects",
-      "coverImage": "",
+      "coverImage": "/images/chris-one-arm-choke-E3MD.jpg",
       "description": "A modern website for a grappling gym in Tauranga.",
       "publishedAt": "2024-09-04T01:58:19.697Z",
       "slug": "grappling-hq",
