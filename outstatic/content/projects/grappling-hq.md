@@ -1,6 +1,6 @@
 ---
 title: 'Grappling HQ'
-status: 'draft'
+status: 'published'
 author:
   name: 'Isaiah Foulidis'
   picture: 'https://avatars.githubusercontent.com/u/44555774?v=4'
@@ -24,9 +24,12 @@ After deploying a draft on a Vercel subdomain that he really liked, I sent him a
 
 - Responsive design for optimal performance on desktop and mobile devices.
 - Subtle effects and animations for a high-quality user experience.
-- Contact page.
+- Contact page with Google Maps integration.
 - Google Analytics.
-- Google Maps location.
+
+  ### Coming Soon
+- Martialytics integration for signing up new students.
+- Competition page with possible use of Outstatic for content management. 
 
 ## Technical Details
 
