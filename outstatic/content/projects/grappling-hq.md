@@ -1,16 +1,16 @@
 ---
-title: 'Grappling HQ'
-status: 'published'
+title: "Grappling HQ"
+status: "published"
 author:
-  name: 'Isaiah Foulidis'
-  picture: 'https://avatars.githubusercontent.com/u/44555774?v=4'
-slug: 'grappling-hq'
-description: 'A modern website for a grappling gym in Tauranga.'
-coverImage: '/images/chris-one-arm-choke-E3MD.jpg'
-publishedAt: '2024-09-04T01:58:19.697Z'
+  name: "Isaiah Foulidis"
+  picture: "https://avatars.githubusercontent.com/u/44555774?v=4"
+slug: "grappling-hq"
+description: "A modern website for a grappling gym in Tauranga."
+coverImage: "/images/chris-one-arm-choke-E3MD.jpg"
+publishedAt: "2024-09-04T01:58:19.697Z"
 ---
 
-<https://grapplinghq.com>
+[https://grapplinghq.com](http://spitfirerecords.co.nz/)
 
 ## Overview
 

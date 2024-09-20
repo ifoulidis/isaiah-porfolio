@@ -22,7 +22,7 @@ const ImageModal: React.FC<ModalProps> = ({ index, close }) => {
         <p>
           Grappling HQ is a competitive Jui Jitsu gym in Tauranga. The website
           is slick, easy to navigate and helpful.{" "}
-          {/* <Link href="/projects/grappling-hq">Learn More...</Link> */}
+          {<Link href="/projects/grappling-hq">Learn More...</Link>}
         </p>
       ),
     },
@@ -70,7 +70,7 @@ const ImageModal: React.FC<ModalProps> = ({ index, close }) => {
   return (
     <div className={styles.backdrop} onClick={close}>
       <motion.div
-        className={`${styles.modal} bg-background text-foreground mb-[80px]`}
+        className={`${styles.modal} bg-background text-foreground`}
         initial={{ opacity: 0, scale: 0.7, x: 300 }}
         animate={{ opacity: 1, scale: 1, x: 0, transition: { duration: 0.5 } }}
         exit={{ opacity: 0, scale: 0.7, x: -300 }}

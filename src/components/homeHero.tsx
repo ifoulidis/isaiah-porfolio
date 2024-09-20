@@ -16,7 +16,12 @@ type VisibilityState = {
 function HomeHero() {
   const [index, setIndex] = useState<number>(1);
   const [visible, setVisible] = useState<boolean>(false);
+  const [mounted, setMounted] = useState<boolean>(false);
   const { width } = useScreenSize();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const images: string[] = [Screenshot1.src, Screenshot2.src, Screenshot3.src];
 
@@ -32,18 +37,10 @@ function HomeHero() {
     "calc(50% - 125px)",
   ];
 
-  const mobileLefts: string[] = ["0", "0", "0"];
-
   const mobileTops: string[] = [
     "calc(25% + 10px)",
     "calc(50% + 20px)",
     "calc(75% + 30px)",
-  ];
-
-  const animateTops = [
-    "calc(60% - 250px)",
-    "calc(60% - 325px)",
-    "calc(60% - 400px)",
   ];
 
   const [disappear, setDisappear] = useState<VisibilityState>({ opacity: 1 });
@@ -76,7 +73,7 @@ function HomeHero() {
   const imgDimensions: number[] = [500, 250, 300, 150];
 
   return (
-    <div className="min-h-[80vh] flex justify-center sm:items-center py-20 sm:py-0 sm:mt-[80px] sticky">
+    <div className="min-h-[80vh] flex justify-center sm:items-center sm:py-20 p-3 sm:mt-[80px] sticky">
       <AnimatePresence>
         {visible && (
           <ImageModal
@@ -87,24 +84,24 @@ function HomeHero() {
           />
         )}
       </AnimatePresence>
-      {width > 776 ? (
+      {mounted && width > 776 ? (
         <>
           {tops.map((value, inx) => (
             <motion.div
               key={inx}
               className="cursor-pointer absolute p-2 rounded-sm bg-gray-200 dark:bg-slate-800"
               initial={{
-                top: width < 776 ? mobileTops[inx] : value,
+                top: value,
                 rotateX: "20deg",
                 rotateY: "30deg",
                 translateZ: "0px",
               }}
               style={{
-                left: width < 776 ? mobileLefts[inx] : lefts[inx],
+                left: lefts[inx],
                 zIndex: `${inx === 0 ? "6" : inx === 1 ? "4" : "2"}`,
               }}
               whileHover={{
-                top: width >= 776 ? animateTops[inx] : mobileTops[inx],
+                top: mobileTops[inx],
               }}
               animate={disappear}
               onTap={() => onTap(inx)}
@@ -112,8 +109,8 @@ function HomeHero() {
             >
               <Image
                 src={images[inx]}
-                width={width < 776 ? imgDimensions[2] : imgDimensions[0]}
-                height={width < 776 ? imgDimensions[3] : imgDimensions[1]}
+                width={imgDimensions[0]}
+                height={imgDimensions[1]}
                 alt={`Portfolio Screenshot ${inx}`}
               />
             </motion.div>
