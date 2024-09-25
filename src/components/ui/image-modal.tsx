@@ -19,11 +19,13 @@ const ImageModal: React.FC<ModalProps> = ({ index, close }) => {
       skills: ["design", "animation"],
       client: "Grappling HQ",
       description: (
-        <p>
-          Grappling HQ is a competitive Jui Jitsu gym in Tauranga. The website
-          is slick, easy to navigate and helpful.{" "}
-          {<Link href="/projects/grappling-hq">Learn More...</Link>}
-        </p>
+        <>
+          <p>
+            Grappling HQ is a competitive Jui Jitsu gym in Tauranga. The website
+            is slick, easy to navigate and helpful.
+          </p>
+          <Link href="/projects/grappling-hq">Learn More...</Link>
+        </>
       ),
     },
     {
@@ -36,9 +38,9 @@ const ImageModal: React.FC<ModalProps> = ({ index, close }) => {
         <>
           <p>
             Spitfire Records is an online record store in New Zealand,
-            specialising in Hard Rock and Metal.{" "}
-            <Link href="/projects/spitfire-records">Learn More...</Link>
+            specialising in Hard Rock and Metal.
           </p>
+          <Link href="/projects/spitfire-records">Learn More...</Link>
         </>
       ),
     },
@@ -49,11 +51,14 @@ const ImageModal: React.FC<ModalProps> = ({ index, close }) => {
       skills: ["NextJS", "CSS", "MD", "animation"],
       client: "Self",
       description: (
-        <p>
-          What Is Truth is an apologetics website that features custom quizzes,
-          feature-packed articles, headless CMS integration, and more.{" "}
+        <>
+          <p>
+            What Is Truth is an apologetics website that features custom
+            quizzes, feature-packed articles, headless CMS integration, and
+            more.
+          </p>
           <Link href="/projects/spitfire-records">Learn More...</Link>
-        </p>
+        </>
       ),
     },
   ];

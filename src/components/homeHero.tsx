@@ -16,12 +16,8 @@ type VisibilityState = {
 function HomeHero() {
   const [index, setIndex] = useState<number>(1);
   const [visible, setVisible] = useState<boolean>(false);
-  const [mounted, setMounted] = useState<boolean>(false);
+  const [disappear, setDisappear] = useState<VisibilityState>({ opacity: 1 });
   const { width } = useScreenSize();
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   const images: string[] = [Screenshot1.src, Screenshot2.src, Screenshot3.src];
 
@@ -37,13 +33,11 @@ function HomeHero() {
     "calc(50% - 125px)",
   ];
 
-  const mobileTops: string[] = [
-    "calc(25% + 10px)",
-    "calc(50% + 20px)",
-    "calc(75% + 30px)",
+  const animateTops = [
+    "calc(60% - 250px)",
+    "calc(60% - 325px)",
+    "calc(60% - 400px)",
   ];
-
-  const [disappear, setDisappear] = useState<VisibilityState>({ opacity: 1 });
 
   function onTap(i: number) {
     setIndex(i);
@@ -84,7 +78,7 @@ function HomeHero() {
           />
         )}
       </AnimatePresence>
-      {mounted && width > 776 ? (
+      {width > 776 ? (
         <>
           {tops.map((value, inx) => (
             <motion.div
@@ -101,7 +95,7 @@ function HomeHero() {
                 zIndex: `${inx === 0 ? "6" : inx === 1 ? "4" : "2"}`,
               }}
               whileHover={{
-                top: mobileTops[inx],
+                top: animateTops[inx],
               }}
               animate={disappear}
               onTap={() => onTap(inx)}
