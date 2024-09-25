@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
-import { useSearchParams } from "next/navigation";
+// import { useSearchParams } from "next/navigation";
 
 export type FormData = {
   name: string;
@@ -18,9 +18,9 @@ export default function ContactForm() {
   const [subject, setSubject] = useState<string>("");
   const [message, setMessage] = useState<string>("");
   const [confirmation, setConfirmation] = useState<string>("");
-  const subjectParams = useSearchParams();
+  // const subjectParams = useSearchParams();
 
-  const autoSubject = subjectParams.get("subject");
+  // const autoSubject = subjectParams.get("subject");
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -29,11 +29,11 @@ export default function ContactForm() {
     return () => clearTimeout(timer);
   }, [confirmation]);
 
-  useEffect(() => {
-    if (typeof autoSubject === "string" && autoSubject.length !== 0) {
-      setSubject(autoSubject);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (typeof autoSubject === "string" && autoSubject.length !== 0) {
+  //     setSubject(autoSubject);
+  //   }
+  // }, []);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
