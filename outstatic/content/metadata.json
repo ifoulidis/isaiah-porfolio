@@ -1,6 +1,6 @@
 {
-  "commit": "74a20514afdb6f372996f1c8e081b0fa1b7c00f3",
-  "generated": "2024-09-20T21:11:35.632Z",
+  "commit": "d3a259a40af7d3274f42122cdfb3b4a3f2c2170e",
+  "generated": "2024-09-25T12:27:22.326Z",
   "metadata": [
     {
       "__outstatic": {
@@ -204,8 +204,8 @@
     },
     {
       "__outstatic": {
-        "commit": "74a20514afdb6f372996f1c8e081b0fa1b7c00f3",
-        "hash": "1496493743",
+        "commit": "d3a259a40af7d3274f42122cdfb3b4a3f2c2170e",
+        "hash": "385855277",
         "path": "outstatic/content/projects/grappling-hq.md"
       },
       "author": {
