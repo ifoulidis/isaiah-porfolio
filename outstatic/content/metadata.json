@@ -1,12 +1,12 @@
 {
-  "commit": "7357d2fbaf77bcfaabdc3a0cfaa99562dddf6352",
-  "generated": "2024-10-06T18:25:02.737Z",
+  "commit": "eba2088f9c6c3eddedbdd2c50ddefe911f34ff94",
+  "generated": "Sun, 06 Oct 2024 18:25:13 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "b3cb07da375a9836a2695e5ce4bde8f18f635a06",
-        "hash": "130023787",
-        "path": "outstatic/content/pages/home.md"
+        "commit": "2839cef342f74259d985d98ad838f8e2e7961f7d",
+        "hash": "1594112077",
+        "path": "outstatic/content/pages/about.md"
       },
       "author": {
         "name": "Isaiah",
@@ -14,47 +14,35 @@
       },
       "collection": "pages",
       "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2024-06-05T06:35:07.000Z",
-      "slug": "home",
+      "description": "I'm Isaiah, a developer from New Zealand",
+      "publishedAt": "2024-06-04T19:49:02.000Z",
+      "slug": "about",
       "status": "published",
-      "title": "Home"
+      "title": "About Me"
     },
     {
       "__outstatic": {
-        "commit": "54cb1a7be94e1455041d58d98280d5bdddce6757",
-        "hash": "367287130",
-        "path": "outstatic/content/projects/what-is-truth.md"
+        "commit": "c85a8f167669e56f742b92028e17c0676b3a2bc0",
+        "hash": "2216701416",
+        "path": "outstatic/content/posts/common-mistakes-in-python.md"
       },
       "author": {
         "name": "Isaiah Foulidis",
         "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
       },
-      "collection": "projects",
-      "coverImage": "/images/main-advertising-card-g0NT.jpg",
-      "description": "What is truth has quizzes, stylish articles, and more...",
-      "publishedAt": "2024-06-03T04:54:50.147Z",
-      "slug": "what-is-truth",
-      "status": "published",
-      "title": "What Is Truth"
-    },
-    {
-      "__outstatic": {
-        "commit": "8cefa9475e535a155e8e465175c73ac036c47cbc",
-        "hash": "1894692351",
-        "path": "outstatic/content/projects/pipeline-google-sheets-to-postgresql.md"
-      },
-      "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/img_1169-M1Mj.jpeg",
-      "description": "A data pipeline built with Python, using the Singer.io framework, to get data from Google Sheets to a PostgreSQL database.",
-      "publishedAt": "2024-06-05T22:25:15.727Z",
-      "slug": "pipeline-google-sheets-to-postgresql",
-      "status": "published",
-      "title": "Pipeline Google Sheets to PostgreSQL"
+      "collection": "posts",
+      "coverImage": "/images/website_image_canva-M2MD.jpg",
+      "description": "Up your game by fixing these style mistakes and logic errors.",
+      "publishedAt": "2024-10-06T19:37:35.622Z",
+      "slug": "common-mistakes-in-python",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Python",
+          "value": "python"
+        }
+      ],
+      "title": "Common Mistakes in Python"
     },
     {
       "__outstatic": {
@@ -90,43 +78,7 @@
     },
     {
       "__outstatic": {
-        "commit": "aa0653e6177ef95da0341886abcb40cfa7dfff57",
-        "hash": "3780070503",
-        "path": "outstatic/content/projects/spitfire-records.md"
-      },
-      "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/img_1172-cxMD.jpeg",
-      "description": "Spitfire records is a full-stack e-commerce website built with PHP, JQuery, and MySQL.",
-      "publishedAt": "2024-06-06T07:39:03.611Z",
-      "slug": "spitfire-records",
-      "status": "published",
-      "title": "Spitfire Records"
-    },
-    {
-      "__outstatic": {
-        "commit": "56d0fe097882ff32676eaa7892031c02a5bbf01c",
-        "hash": "775078771",
-        "path": "outstatic/content/projects/adobe-analytics-to-postgres-pipeline.md"
-      },
-      "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/adobe-anaytics-to-postgresql-k5OD.jpg",
-      "description": "A pipeline that extracts data from Adobe Anaytics to Postgres daily.",
-      "publishedAt": "2024-07-12T05:40:47.466Z",
-      "slug": "adobe-analytics-to-postgres-pipeline",
-      "status": "published",
-      "title": "Adobe Analytics to Postgres Pipeline"
-    },
-    {
-      "__outstatic": {
-        "commit": "361eeaf7af3e1753cb9504023526e560f7ddeecb",
+        "commit": "99704dbb5623edabdfe3b91389bf616c0e38453b",
         "hash": "1828714153",
         "path": "outstatic/content/posts/decapcms-fixes.md"
       },
@@ -158,7 +110,7 @@
     },
     {
       "__outstatic": {
-        "commit": "33c1be7e7b753449688a548aab042e55b5a5193f",
+        "commit": "8551509c5b3fa415ca040b7c51a8eea9f74ae01e",
         "hash": "107410841",
         "path": "outstatic/content/posts/content-management-options.md"
       },
@@ -186,9 +138,9 @@
     },
     {
       "__outstatic": {
-        "commit": "cc5393b4ea91fe5bd5a62ecc4e0e4233d736d720",
-        "hash": "1594112077",
-        "path": "outstatic/content/pages/about.md"
+        "commit": "b3cb07da375a9836a2695e5ce4bde8f18f635a06",
+        "hash": "130023787",
+        "path": "outstatic/content/pages/home.md"
       },
       "author": {
         "name": "Isaiah",
@@ -196,15 +148,69 @@
       },
       "collection": "pages",
       "coverImage": "",
-      "description": "I'm Isaiah, a developer from New Zealand",
-      "publishedAt": "2024-06-04T19:49:02.000Z",
-      "slug": "about",
+      "description": "This is my blog.",
+      "publishedAt": "2024-06-05T06:35:07.000Z",
+      "slug": "home",
       "status": "published",
-      "title": "About Me"
+      "title": "Home"
     },
     {
       "__outstatic": {
-        "commit": "d3a259a40af7d3274f42122cdfb3b4a3f2c2170e",
+        "commit": "54cb1a7be94e1455041d58d98280d5bdddce6757",
+        "hash": "3028819854",
+        "path": "outstatic/content/projects/what-is-truth.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/main-advertising-card-g0NT.jpg",
+      "description": "What is truth has quizzes, stylish articles, and more...",
+      "publishedAt": "2024-06-03T04:54:50.147Z",
+      "slug": "what-is-truth",
+      "status": "published",
+      "title": "What Is Truth"
+    },
+    {
+      "__outstatic": {
+        "commit": "aa0653e6177ef95da0341886abcb40cfa7dfff57",
+        "hash": "3780070503",
+        "path": "outstatic/content/projects/spitfire-records.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/img_1172-cxMD.jpeg",
+      "description": "Spitfire records is a full-stack e-commerce website built with PHP, JQuery, and MySQL.",
+      "publishedAt": "2024-06-06T07:39:03.611Z",
+      "slug": "spitfire-records",
+      "status": "published",
+      "title": "Spitfire Records"
+    },
+    {
+      "__outstatic": {
+        "commit": "8cefa9475e535a155e8e465175c73ac036c47cbc",
+        "hash": "1894692351",
+        "path": "outstatic/content/projects/pipeline-google-sheets-to-postgresql.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/img_1169-M1Mj.jpeg",
+      "description": "A data pipeline built with Python, using the Singer.io framework, to get data from Google Sheets to a PostgreSQL database.",
+      "publishedAt": "2024-06-05T22:25:15.727Z",
+      "slug": "pipeline-google-sheets-to-postgresql",
+      "status": "published",
+      "title": "Pipeline Google Sheets to PostgreSQL"
+    },
+    {
+      "__outstatic": {
+        "commit": "5e612425ca10969afb739853d2692ac85a18e53e",
         "hash": "385855277",
         "path": "outstatic/content/projects/grappling-hq.md"
       },
@@ -222,27 +228,21 @@
     },
     {
       "__outstatic": {
-        "commit": "7357d2fbaf77bcfaabdc3a0cfaa99562dddf6352",
-        "hash": "1542226964",
-        "path": "outstatic/content/posts/common-mistakes-in-python.md"
+        "commit": "28db1cb0fee8878f969c09584f24569324b22969",
+        "hash": "775078771",
+        "path": "outstatic/content/projects/adobe-analytics-to-postgres-pipeline.md"
       },
       "author": {
         "name": "Isaiah Foulidis",
         "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
       },
-      "collection": "posts",
-      "coverImage": "/images/website_image_canva-M2MD.jpg",
-      "description": "Up your game by fixing these style mistakes and logic errors.",
-      "publishedAt": "2024-10-06T19:37:35.622Z",
-      "slug": "common-mistakes-in-python",
+      "collection": "projects",
+      "coverImage": "/images/adobe-anaytics-to-postgresql-k5OD.jpg",
+      "description": "A pipeline that extracts data from Adobe Anaytics to Postgres daily.",
+      "publishedAt": "2024-07-12T05:40:47.466Z",
+      "slug": "adobe-analytics-to-postgres-pipeline",
       "status": "published",
-      "tags": [
-        {
-          "label": "Python",
-          "value": "python"
-        }
-      ],
-      "title": "Common Mistakes in Python"
+      "title": "Adobe Analytics to Postgres Pipeline"
     }
   ]
 }
