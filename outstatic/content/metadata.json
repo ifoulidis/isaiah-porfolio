@@ -1,6 +1,6 @@
 {
-  "commit": "e0f2b49a6036ec982698b89459cfc99e646faa48",
-  "generated": "2024-10-06T18:24:54.206Z",
+  "commit": "7357d2fbaf77bcfaabdc3a0cfaa99562dddf6352",
+  "generated": "2024-10-06T18:25:02.737Z",
   "metadata": [
     {
       "__outstatic": {
@@ -222,8 +222,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e0f2b49a6036ec982698b89459cfc99e646faa48",
-        "hash": "2216701416",
+        "commit": "7357d2fbaf77bcfaabdc3a0cfaa99562dddf6352",
+        "hash": "1542226964",
         "path": "outstatic/content/posts/common-mistakes-in-python.md"
       },
       "author": {
@@ -235,7 +235,7 @@
       "description": "Up your game by fixing these style mistakes and logic errors.",
       "publishedAt": "2024-10-06T19:37:35.622Z",
       "slug": "common-mistakes-in-python",
-      "status": "draft",
+      "status": "published",
       "tags": [
         {
           "label": "Python",

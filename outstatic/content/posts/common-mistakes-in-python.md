@@ -1,6 +1,6 @@
 ---
 title: 'Common Mistakes in Python'
-status: 'draft'
+status: 'published'
 author:
   name: 'Isaiah Foulidis'
   picture: 'https://avatars.githubusercontent.com/u/44555774?v=4'
@@ -15,12 +15,16 @@ publishedAt: '2024-10-06T19:37:35.622Z'
 
 - Make sure the GitHub repo isn't in the requirements file (which happens when you run pipe freeze).
 
-
 - Make sure any new packages are added to the requirements file *and* setup.py.
+
 - Are any environmental variables being read directly instead of being passed through the config? Don't, because passing them through the config is an extra check to make sure they're present.
+
 - Have you created an index when using a for loop instead of just using enumerate?
+
 - Do you have any variables that are initialized with `if–else` statements? If so, would they be better with ternary operators?
+
 - Is there unused code, especially in utility.py? Get rid of it. Yes, he's happy for you to delete tons of it.
+
 - Is there a large chunk of code that is nested because of a condition? Can you invert the condition so the code is no longer nested? I.e., instead of this:
 
 ```python
@@ -57,5 +61,3 @@ return []
 - Have you wrapped complex comparisons with a bracket if possible?
 - Need substream bookmarks? They should be added to a new_bookmarks list of tuples and returned from `get()`. See the Tesla pipeline.
 - Are you checking if anything is returned after an api call? Just use `or {}` (or whatever data type is appropriate) on the same line.
-
- 
