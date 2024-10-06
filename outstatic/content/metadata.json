@@ -1,6 +1,6 @@
 {
-  "commit": "d3a259a40af7d3274f42122cdfb3b4a3f2c2170e",
-  "generated": "2024-09-25T12:27:22.326Z",
+  "commit": "e0f2b49a6036ec982698b89459cfc99e646faa48",
+  "generated": "2024-10-06T18:24:54.206Z",
   "metadata": [
     {
       "__outstatic": {
@@ -219,6 +219,30 @@
       "slug": "grappling-hq",
       "status": "published",
       "title": "Grappling HQ"
+    },
+    {
+      "__outstatic": {
+        "commit": "e0f2b49a6036ec982698b89459cfc99e646faa48",
+        "hash": "2216701416",
+        "path": "outstatic/content/posts/common-mistakes-in-python.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/website_image_canva-M2MD.jpg",
+      "description": "Up your game by fixing these style mistakes and logic errors.",
+      "publishedAt": "2024-10-06T19:37:35.622Z",
+      "slug": "common-mistakes-in-python",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Python",
+          "value": "python"
+        }
+      ],
+      "title": "Common Mistakes in Python"
     }
   ]
 }
