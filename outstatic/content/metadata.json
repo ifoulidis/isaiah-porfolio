@@ -1,6 +1,6 @@
 {
-  "commit": "eba2088f9c6c3eddedbdd2c50ddefe911f34ff94",
-  "generated": "Sun, 06 Oct 2024 18:25:13 GMT",
+  "commit": "77d5d9e7175fb6fb168819410e40afb1dbe8c6eb",
+  "generated": "Sun, 06 Oct 2024 21:14:29 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -19,30 +19,6 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
-    },
-    {
-      "__outstatic": {
-        "commit": "c85a8f167669e56f742b92028e17c0676b3a2bc0",
-        "hash": "2216701416",
-        "path": "outstatic/content/posts/common-mistakes-in-python.md"
-      },
-      "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/website_image_canva-M2MD.jpg",
-      "description": "Up your game by fixing these style mistakes and logic errors.",
-      "publishedAt": "2024-10-06T19:37:35.622Z",
-      "slug": "common-mistakes-in-python",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Python",
-          "value": "python"
-        }
-      ],
-      "title": "Common Mistakes in Python"
     },
     {
       "__outstatic": {
@@ -135,6 +111,30 @@
         }
       ],
       "title": "Content Management Options for Web Developers"
+    },
+    {
+      "__outstatic": {
+        "commit": "c85a8f167669e56f742b92028e17c0676b3a2bc0",
+        "hash": "1542226964",
+        "path": "outstatic/content/posts/common-mistakes-in-python.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/website_image_canva-M2MD.jpg",
+      "description": "Up your game by fixing these style mistakes and logic errors.",
+      "publishedAt": "2024-10-06T19:37:35.622Z",
+      "slug": "common-mistakes-in-python",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Python",
+          "value": "python"
+        }
+      ],
+      "title": "Common Mistakes in Python"
     },
     {
       "__outstatic": {
