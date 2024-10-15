@@ -1,6 +1,6 @@
 {
-  "commit": "77d5d9e7175fb6fb168819410e40afb1dbe8c6eb",
-  "generated": "Sun, 06 Oct 2024 21:14:29 GMT",
+  "commit": "bc8d95f78044d065ff872b19c19700536bbe553d",
+  "generated": "2024-10-15T18:02:42.850Z",
   "metadata": [
     {
       "__outstatic": {
@@ -114,30 +114,6 @@
     },
     {
       "__outstatic": {
-        "commit": "c85a8f167669e56f742b92028e17c0676b3a2bc0",
-        "hash": "1542226964",
-        "path": "outstatic/content/posts/common-mistakes-in-python.md"
-      },
-      "author": {
-        "name": "Isaiah Foulidis",
-        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/website_image_canva-M2MD.jpg",
-      "description": "Up your game by fixing these style mistakes and logic errors.",
-      "publishedAt": "2024-10-06T19:37:35.622Z",
-      "slug": "common-mistakes-in-python",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Python",
-          "value": "python"
-        }
-      ],
-      "title": "Common Mistakes in Python"
-    },
-    {
-      "__outstatic": {
         "commit": "b3cb07da375a9836a2695e5ce4bde8f18f635a06",
         "hash": "130023787",
         "path": "outstatic/content/pages/home.md"
@@ -243,6 +219,30 @@
       "slug": "adobe-analytics-to-postgres-pipeline",
       "status": "published",
       "title": "Adobe Analytics to Postgres Pipeline"
+    },
+    {
+      "__outstatic": {
+        "commit": "bc8d95f78044d065ff872b19c19700536bbe553d",
+        "hash": "1805611237",
+        "path": "outstatic/content/posts/common-mistakes-in-python.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/website_image_canva-M2MD.jpg",
+      "description": "Up your game by fixing these style mistakes and logic errors.",
+      "publishedAt": "2024-10-06T19:37:35.622Z",
+      "slug": "common-mistakes-in-python",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Python",
+          "value": "python"
+        }
+      ],
+      "title": "Common Mistakes in Python"
     }
   ]
 }
