@@ -15,17 +15,17 @@ Here are some resources for improving your Python skills, especially when dealin
 
 ## Resources
 
-Clean code in Python: <https://m.youtube.com/watch?v=o9pEzgHorH0>
+Clean code in Python: [https://m.youtube.com/watch?v=o9pEzgHorH0](https://m.youtube.com/watch?v=o9pEzgHorH0)
 
-Top 10 common errors: <https://www.toptal.com/python/top-10-mistakes-that-python-programmers-make>
+Top 10 common errors: [https://www.toptal.com/python/top-10-mistakes-that-python-programmers-make](https://www.toptal.com/python/top-10-mistakes-that-python-programmers-make)
 
-Code style: <https://docs.python-guide.org/writing/style/>
+Code style: [https://docs.python-guide.org/writing/style/](https://docs.python-guide.org/writing/style/)
 
-Nested data Python: <https://llego.dev/posts/solving-programming-challenges-nested-data-structures-python/>
+Nested data Python: [https://llego.dev/posts/solving-programming-challenges-nested-data-structures-python/](https://llego.dev/posts/solving-programming-challenges-nested-data-structures-python/)
 
-Google Python refresher: <https://colab.research.google.com/github/kamperh/data414/blob/main/practicals/python_numpy/python_numpy.ipynb?pli=1#scrollTo=BrEgZHHq5q4I>
+Google Python refresher: [https://colab.research.google.com/github/kamperh/data414/blob/main/practicals/python_numpy/python_numpy.ipynb?pli=1#scrollTo=BrEgZHHq5q4I](https://colab.research.google.com/github/kamperh/data414/blob/main/practicals/python_numpy/python_numpy.ipynb?pli=1#scrollTo=BrEgZHHq5q4I)
 
-Great intermediate Python tips: <https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p>
+Great intermediate Python tips: [https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p)
 
 ## Checklist
 
