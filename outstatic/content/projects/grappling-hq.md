@@ -30,6 +30,8 @@ After deploying a draft on a Vercel subdomain that he really liked, I sent him a
 
 - Google Analytics.
 
+- Image management via a protected admin page.
+
   ### Coming Soon
 
 - Martialytics integration for signing up new students.
@@ -41,4 +43,7 @@ After deploying a draft on a Vercel subdomain that he really liked, I sent him a
 - Next.js framework.
 - Framer motion for animations.
 - EmailJS for Gmail integration.
+- Cloudinary for image management.
+- Modular CSS.
+- Protected routes managed with cookies.
 - Deployed with Vercel.
