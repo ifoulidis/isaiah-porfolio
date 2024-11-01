@@ -13,9 +13,9 @@ publishedAt: "2024-10-06T19:37:35.622Z"
 
 If you're new to a professional environment, there are quite a few mistakes you might not have been made aware of by tutorials or classes. Here are some examples:
 
-- Committing secrets to GitHub. _Use a .env file and make sure it isn't uploaded by using a .gitignore file_.
-- Using classes too often. If your class has the constructor and a single other method, it shouldn't be a class. It should probably just be a function.
-- Nesting a huge chunk of code in a conditional block. Can you invert the condition so the code is no longer nested? I.e., instead of this:
+- **Committing secrets to GitHub**. Use a `.env` file and make sure it isn't uploaded by using a `.gitignore` file.
+- **Using classes too often**. If your class has the constructor and a single other method, it shouldn't be a class. It should probably just be a function.
+- **Nesting a huge chunk of code in a conditional block**. Can you invert the condition so the code is no longer nested? I.e., instead of this:
 
 ```python
 if data:

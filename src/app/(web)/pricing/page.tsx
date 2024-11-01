@@ -8,25 +8,25 @@ export default function Pricing() {
           <div className="prose md:prose-xl prose-outstatic animate-fade-up opacity-0">
             <MotionCard
               title="Small Business Website"
-              price="From $250 plus GST"
+              price="From $600"
               description="About 5 pages, including a contact page and information."
             />
 
             <MotionCard
               title="Small E-Commerce Website"
-              price="From $750 plus GST"
+              price="From $1000"
               description="Arrange to sell a few products with email invoicing."
             />
 
             <MotionCard
               title="E-Commerce Website"
-              price="From $3000 plus GST"
+              price="From $3000"
               description="Sell a range of products that can be updated as you go from an owner dashboard."
             />
 
             <MotionCard
               title="Complex E-Commerce Website"
-              price="From $6000 plus GST"
+              price="From $6000"
               description="For an extensive range of features or complex products and requirements."
             />
 
