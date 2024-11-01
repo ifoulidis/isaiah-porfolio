@@ -1,6 +1,6 @@
 {
   "commit": "ea29b28e05008bc4fa670c9b42a99b7d254f5364",
-  "generated": "2024-11-01T20:51:34.997Z",
+  "generated": "2024-11-01T20:51:50.068Z",
   "metadata": [
     {
       "__outstatic": {
@@ -229,7 +229,7 @@
     {
       "__outstatic": {
         "commit": "ea29b28e05008bc4fa670c9b42a99b7d254f5364",
-        "hash": "387382734",
+        "hash": "382797315",
         "path": "outstatic/content/pages/about.md"
       },
       "author": {

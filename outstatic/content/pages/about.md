@@ -34,7 +34,7 @@ Python apps—a flask blog, an interactive map, and a variety of other apps to g
 ### Tech I've used 🎛️
 
 ```javascript
-TypeScript, Next.js, Python, PHP, MySQL, SvelteKit, React, JS, JQuery, Git, React Native, tRPC, Zod, Supabase, Node.js, Firebase, Singer.io, Framer Motion, ...
+TypeScript, Next.js, Python, PHP, PostgreSQL, MySQL, SvelteKit, React, JS, JQuery, Git, React Native, tRPC, Zod, Supabase, Node.js, Firebase, Singer.io, Framer Motion, ...
 ```
 
 ### How to reach me 📫
