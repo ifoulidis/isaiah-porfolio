@@ -1,13 +1,13 @@
 ---
-title: 'About Me'
-status: 'published'
+title: "About Me"
+status: "published"
 author:
-  name: 'Isaiah'
-  picture: ''
-slug: 'about'
-description: 'I''m Isaiah, a developer from New Zealand'
-coverImage: ''
-publishedAt: '2024-06-04T19:49:02.000Z'
+  name: "Isaiah"
+  picture: ""
+slug: "about"
+description: "I'm Isaiah, a developer from New Zealand"
+coverImage: ""
+publishedAt: "2024-06-04T19:49:02.000Z"
 ---
 
 ## Hey, I'm Isaiah! 👋
@@ -18,9 +18,10 @@ publishedAt: '2024-06-04T19:49:02.000Z'
 🇳🇿 From Matamata, New Zealand\
 🔬 Background in biochemistry\
 📝 Formerly an English & Specialist Editor for science journals\
-✅ Completed Over 10 Professional Projects
 
 ### Some personal projects I built 👨🏻‍💻
+
+Super TypeKit: A SvelteKit, Zod, tRPC, Prisma, Supabase, and Superforms powered website with a custom-built chart, editable data, auth, etc.
 
 [What Is Truth?](https://whatistruth.co.nz)—a website comparing worldviews by addressing the toughest challenges to them and providing challenging quizzes.
 
@@ -33,7 +34,7 @@ Python apps—a flask blog, an interactive map, and a variety of other apps to g
 ### Tech I've used 🎛️
 
 ```javascript
-Next.js, Python, PHP, MySQL, Singer.io, Framer Motion, React, JS, JQuery, Git, React Native, Supabase, Node.js, Firebase...
+TypeScript, Next.js, Python, PHP, MySQL, SvelteKit, React, JS, JQuery, Git, React Native, Supabase, Node.js, Firebase, Singer.io, Framer Motion, ...
 ```
 
 ### How to reach me 📫
