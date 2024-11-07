@@ -1,25 +1,7 @@
 {
-  "commit": "a8d2870b03892159d64f772276606ba3c630759e",
-  "generated": "2024-10-26T06:45:20.536Z",
+  "commit": "ea29b28e05008bc4fa670c9b42a99b7d254f5364",
+  "generated": "2024-11-01T20:51:50.068Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "2839cef342f74259d985d98ad838f8e2e7961f7d",
-        "hash": "1594112077",
-        "path": "outstatic/content/pages/about.md"
-      },
-      "author": {
-        "name": "Isaiah",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "I'm Isaiah, a developer from New Zealand",
-      "publishedAt": "2024-06-04T19:49:02.000Z",
-      "slug": "about",
-      "status": "published",
-      "title": "About Me"
-    },
     {
       "__outstatic": {
         "commit": "639992c653614a58c4b99cf9c28ac8ebbf0b3d47",
@@ -243,6 +225,24 @@
       "slug": "grappling-hq",
       "status": "published",
       "title": "Grappling HQ"
+    },
+    {
+      "__outstatic": {
+        "commit": "ea29b28e05008bc4fa670c9b42a99b7d254f5364",
+        "hash": "382797315",
+        "path": "outstatic/content/pages/about.md"
+      },
+      "author": {
+        "name": "Isaiah",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "I'm Isaiah, a developer from New Zealand",
+      "publishedAt": "2024-06-04T19:49:02.000Z",
+      "slug": "about",
+      "status": "published",
+      "title": "About Me"
     }
   ]
 }

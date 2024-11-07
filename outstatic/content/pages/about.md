@@ -1,13 +1,13 @@
 ---
-title: "About Me"
-status: "published"
+title: 'About Me'
+status: 'published'
 author:
-  name: "Isaiah"
-  picture: ""
-slug: "about"
-description: "I'm Isaiah, a developer from New Zealand"
-coverImage: ""
-publishedAt: "2024-06-04T19:49:02.000Z"
+  name: 'Isaiah'
+  picture: ''
+slug: 'about'
+description: 'I''m Isaiah, a developer from New Zealand'
+coverImage: ''
+publishedAt: '2024-06-04T19:49:02.000Z'
 ---
 
 ## Hey, I'm Isaiah! 👋
@@ -17,7 +17,7 @@ publishedAt: "2024-06-04T19:49:02.000Z"
 🤖 Web and Software Developer\
 🇳🇿 From Matamata, New Zealand\
 🔬 Background in biochemistry\
-📝 Formerly an English & Specialist Editor for science journals\
+📝 Formerly an English & Specialist Editor for science journals\\
 
 ### Some personal projects I built 👨🏻‍💻
 
@@ -34,7 +34,7 @@ Python apps—a flask blog, an interactive map, and a variety of other apps to g
 ### Tech I've used 🎛️
 
 ```javascript
-TypeScript, Next.js, Python, PHP, MySQL, SvelteKit, React, JS, JQuery, Git, React Native, Supabase, Node.js, Firebase, Singer.io, Framer Motion, ...
+TypeScript, Next.js, Python, PHP, PostgreSQL, MySQL, SvelteKit, React, JS, JQuery, Git, React Native, tRPC, Zod, Supabase, Node.js, Firebase, Singer.io, Framer Motion, ...
 ```
 
 ### How to reach me 📫
