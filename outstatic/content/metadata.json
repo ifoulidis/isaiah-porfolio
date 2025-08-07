@@ -1,6 +1,6 @@
 {
-  "commit": "ea29b28e05008bc4fa670c9b42a99b7d254f5364",
-  "generated": "2024-11-01T20:51:50.068Z",
+  "commit": "819baf742b0e798efe4f6c7c621839edb8d72471",
+  "generated": "2025-08-07T00:55:51.151Z",
   "metadata": [
     {
       "__outstatic": {
@@ -243,6 +243,24 @@
       "slug": "about",
       "status": "published",
       "title": "About Me"
+    },
+    {
+      "__outstatic": {
+        "commit": "819baf742b0e798efe4f6c7c621839edb8d72471",
+        "hash": "1811318864",
+        "path": "outstatic/content/notes/on-circuit-components.md"
+      },
+      "author": {
+        "name": "Isaiah Foulidis",
+        "picture": "https://avatars.githubusercontent.com/u/44555774?v=4"
+      },
+      "collection": "notes",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2025-08-07T02:06:36.090Z",
+      "slug": "on-circuit-components",
+      "status": "draft",
+      "title": "On Circuit Components"
     }
   ]
 }
