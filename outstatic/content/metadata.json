@@ -1,6 +1,6 @@
 {
-  "commit": "819baf742b0e798efe4f6c7c621839edb8d72471",
-  "generated": "2025-08-07T00:55:51.151Z",
+  "commit": "3264d8e7b7b56da41f8571560c05b9b61c5de0f7",
+  "generated": "2025-08-07T00:56:02.775Z",
   "metadata": [
     {
       "__outstatic": {
@@ -246,8 +246,8 @@
     },
     {
       "__outstatic": {
-        "commit": "819baf742b0e798efe4f6c7c621839edb8d72471",
-        "hash": "1811318864",
+        "commit": "3264d8e7b7b56da41f8571560c05b9b61c5de0f7",
+        "hash": "1541874643",
         "path": "outstatic/content/notes/on-circuit-components.md"
       },
       "author": {
@@ -259,7 +259,7 @@
       "description": "",
       "publishedAt": "2025-08-07T02:06:36.090Z",
       "slug": "on-circuit-components",
-      "status": "draft",
+      "status": "published",
       "title": "On Circuit Components"
     }
   ]
